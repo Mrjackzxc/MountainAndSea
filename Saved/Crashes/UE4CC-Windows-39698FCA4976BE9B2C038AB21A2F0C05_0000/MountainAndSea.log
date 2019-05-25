@@ -1,0 +1,757 @@
+﻿Log file open, 04/07/19 18:09:07
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: MountainAndSea
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.523073
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.118s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: AMD Ryzen 7 2700X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 1080 Ti
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UnrealEngine/UnrealEngine-release/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.04.07-10.09.07:578][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.07-10.09.07:578][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.07-10.09.07:579][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.07-10.09.07:579][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.04.07-10.09.07:579][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.04.07-10.09.07:582][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.07-10.09.07:582][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.07-10.09.07:583][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.07-10.09.07:584][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.07-10.09.07:584][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.07-10.09.07:616][  0]LogHAL: Display: Platform has ~ 16 GB [17096769536 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.07-10.09.07:616][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.04.07-10.09.07:616][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.07-10.09.07:616][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.04.07-10.09.07:616][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.07-10.09.07:616][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.07-10.09.07:616][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.07-10.09.07:617][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.07-10.09.07:618][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.07-10.09.07:619][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.07-10.09.07:619][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.04.07-10.09.07:619][  0]LogInit: Computer: DESKTOP-82VF2NQ
+[2019.04.07-10.09.07:619][  0]LogInit: User: yifan
+[2019.04.07-10.09.07:619][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.04.07-10.09.07:619][  0]LogInit: High frequency timer resolution =3.606511 MHz
+[2019.04.07-10.09.07:619][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.07-10.09.07:619][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.07-10.09.07:619][  0]LogMemory: Process Physical Memory: 104.19 MB used, 104.19 MB peak
+[2019.04.07-10.09.07:619][  0]LogMemory: Process Virtual Memory: 91.57 MB used, 91.57 MB peak
+[2019.04.07-10.09.07:619][  0]LogMemory: Physical Memory: 3780.99 MB used,  12523.76 MB free, 16304.75 MB total
+[2019.04.07-10.09.07:619][  0]LogMemory: Virtual Memory: 4685.96 MB used,  134213040.00 MB free, 134217728.00 MB total
+[2019.04.07-10.09.07:640][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.04.07-10.09.07:640][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.04.07-10.09.07:975][  0]LogStreaming: Display: Took  0.335s to InitEngineTextLocalization.
+[2019.04.07-10.09.07:975][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.07-10.09.08:018][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.07-10.09.08:018][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.07-10.09.08:220][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.07-10.09.08:221][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.07-10.09.08:265][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2019.04.07-10.09.08:266][  0]LogD3D11RHI:       11132/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.07-10.09.08:267][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.07-10.09.08:267][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.07-10.09.08:267][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.07-10.09.08:273][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.07-10.09.08:273][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.07-10.09.08:273][  0]LogWindows: EnumDisplayDevices:
+[2019.04.07-10.09.08:273][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2019.04.07-10.09.08:274][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.04.07-10.09.08:274][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.04.07-10.09.08:274][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.04.07-10.09.08:274][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.07-10.09.08:274][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2019.04.07-10.09.08:274][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.04.07-10.09.08:274][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.04.07-10.09.08:274][  0]LogRHI: Texture pool is 7792 MB (70% of 11132 MB)
+[2019.04.07-10.09.08:306][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.07-10.09.08:317][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.07-10.09.08:628][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.07-10.09.08:640][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.07-10.09.08:651][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.07-10.09.08:663][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.07-10.09.08:675][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.07-10.09.08:686][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.07-10.09.08:698][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.07-10.09.08:710][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.07-10.09.08:714][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-10.09.08:786][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.07-10.09.08:853][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.07-10.09.08:853][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.07-10.09.08:876][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.07-10.09.08:876][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.07-10.09.08:887][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.07-10.09.08:898][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.07-10.09.08:909][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.07-10.09.08:921][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.07-10.09.08:962][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.07-10.09.08:962][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.07-10.09.08:962][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.07-10.09.08:997][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../UnrealEngineProject/MountainAndSea/Intermediate/Shaders/WorkingDirectory/11060/).
+[2019.04.07-10.09.08:998][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/yifan/AppData/Local/Temp/UnrealShaderWorkingDir/3439AD9143A7FB7D10F73190A5E8712A/'.
+[2019.04.07-10.09.08:999][  0]LogXGEController: Cleaning working directory: C:/Users/yifan/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.07-10.09.08:999][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.07-10.09.08:999][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.07-10.09.08:999][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.07-10.09.09:482][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.07-10.09.09:524][  0]LogDerivedDataCache: Loaded boot cache 0.04s 74MB C:/Users/yifan/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.07-10.09.09:524][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/yifan/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.04.07-10.09.09:525][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealEngineProject/MountainAndSea/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.07-10.09.09:525][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.07-10.09.09:525][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealEngineProject/MountainAndSea/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.07-10.09.09:525][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.07-10.09.09:540][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.07-10.09.09:540][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.07-10.09.09:540][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.04.07-10.09.09:552][  0]LogDerivedDataCache: Using Local data cache path C:/Users/yifan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.07-10.09.09:552][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.07-10.09.09:552][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.07-10.09.09:582][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.07-10.09.09:584][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.07-10.09.09:584][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.07-10.09.09:664][  0]LogAssetRegistry: FAssetRegistry took 0.0331 seconds to start up
+[2019.04.07-10.09.09:981][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.07-10.09.10:033][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.07-10.09.10:035][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.07-10.09.10:035][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.07-10.09.10:035][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.07-10.09.10:035][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.07-10.09.10:138][  0]LogNetVersion: MountainAndSea 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3138369148)
+[2019.04.07-10.09.10:567][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.060545 seconds
+[2019.04.07-10.09.10:573][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.04.07-10.09.10:573][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.04.07-10.09.10:573][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.07-10.09.11:268][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.07-10.09.11:281][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.07-10.09.12:099][  0]LogBlueprint: Warning: [Compiler RoleBP] Jump_Loop to Jump_End  will never be taken, please connect something to  Can Enter Transition
+[2019.04.07-10.09.12:099][  0]LogBlueprint: Warning: [Compiler RoleBP] IdleToRun to State  will never be taken, please connect something to  Can Enter Transition
+[2019.04.07-10.09.12:099][  0]LogBlueprint: Warning: [Compiler RoleBP] State to IdleToRun  will never be taken, please connect something to  Can Enter Transition
+[2019.04.07-10.09.12:102][  0]LogBlueprint: Warning: [Compiler RoleBP] [0006.88] Compile of RoleBP successful, but with 3 Warning(s) [in 16 ms] (/Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP)
+[2019.04.07-10.09.12:527][  0]SourceControl: Source control is disabled
+[2019.04.07-10.09.12:527][  0]SourceControl: Source control is disabled
+[2019.04.07-10.09.12:528][  0]SourceControl: Source control is disabled
+[2019.04.07-10.09.12:529][  0]SourceControl: Source control is disabled
+[2019.04.07-10.09.12:687][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.07-10.09.12:749][  0]LogOcInput: OculusInput pre-init called
+[2019.04.07-10.09.12:906][  0]LogEngine: Initializing Engine...
+[2019.04.07-10.09.12:907][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.07-10.09.12:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.07-10.09.12:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.07-10.09.12:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.07-10.09.12:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.07-10.09.13:102][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.07-10.09.13:110][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.07-10.09.13:124][  0]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.07-10.09.13:207][  0]LogInit: FAudioDevice initialized.
+[2019.04.07-10.09.13:207][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.07-10.09.13:300][  0]LogDerivedDataCache: Saved boot cache 0.09s 74MB C:/Users/yifan/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.07-10.09.13:310][  0]LogInit: Texture streaming: Enabled
+[2019.04.07-10.09.13:323][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.07-10.09.13:340][  0]LogInit: Transaction tracking system initialized
+[2019.04.07-10.09.13:355][  0]BlueprintLog: New page: Editor Load
+[2019.04.07-10.09.13:429][  0]LocalizationService: Localization service is disabled
+[2019.04.07-10.09.13:862][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.07-10.09.13:862][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.07-10.09.13:862][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.07-10.09.13:862][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.07-10.09.13:862][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.07-10.09.13:862][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.07-10.09.13:862][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.07-10.09.13:875][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngineProject/MountainAndSea/Content/' took 0.03s
+[2019.04.07-10.09.13:963][  0]SourceControl: Source control is disabled
+[2019.04.07-10.09.13:963][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealEngineProject/MountainAndSea/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.07-10.09.13:986][  0]LightingResults: New page: Lighting Build
+[2019.04.07-10.09.13:988][  0]MapCheck: New page: Map Check
+[2019.04.07-10.09.13:988][  0]LightingResults: New page: Lighting Build
+[2019.04.07-10.09.14:650][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.07-10.09.14:661][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.07-10.09.14:703][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.07-10.09.14:703][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.1ms to complete.
+[2019.04.07-10.09.14:703][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.740
+[2019.04.07-10.09.14:807][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-10.09.14:814][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-10.09.14:820][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-10.09.14:827][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-10.09.14:831][  0]LogCollectionManager: Loaded 0 collections in 0.000780 seconds
+[2019.04.07-10.09.14:846][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngineProject/MountainAndSea/Saved/Collections/' took 0.01s
+[2019.04.07-10.09.14:846][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngineProject/MountainAndSea/Content/Developers/yifan/Collections/' took 0.00s
+[2019.04.07-10.09.14:846][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngineProject/MountainAndSea/Content/Collections/' took 0.00s
+[2019.04.07-10.09.14:846][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.07-10.09.14:862][  0]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 2657 classes and 624 folders.
+[2019.04.07-10.09.14:866][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.07-10.09.14:867][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:868][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:868][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:869][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:869][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:869][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:870][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:870][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:870][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:871][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:871][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:871][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:872][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:872][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:872][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:873][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:873][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:873][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:874][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:874][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:874][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:875][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:875][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:875][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:876][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:876][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.07-10.09.14:904][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.07-10.09.14:908][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.04.07-10.09.14:983][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.07-10.09.14:986][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.07-10.09.14:995][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.07-10.09.14:999][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.07-10.09.15:064][  0]LogRenderer: Reallocating scene render targets to support 1148x580 Format 10 NumSamples 1 (Frame:1).
+[2019.04.07-10.09.15:197][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.07-10.09.15:197][  0]LogLoad: (Engine Initialization) Total time: 9.97 seconds
+[2019.04.07-10.09.15:197][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.07-10.09.15:208][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2019.04.07-10.09.15:269][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.07-10.09.15:308][  0]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.07-10.09.15:614][  2]LogAssetRegistry: Asset discovery search completed in 5.9720 seconds
+[2019.04.07-10.09.15:616][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.07-10.09.15:616][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2019.04.07-10.09.15:643][  3]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RoleBP_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:00A3
+[2019.04.07-10.09.15:643][  3]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RoleBP_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:00E2
+[2019.04.07-10.09.15:643][  3]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RoleBP_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:0149
+[2019.04.07-10.09.15:643][  3]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RoleBP_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:0173
+[2019.04.07-10.09.15:643][  3]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RoleBP_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:01D7
+[2019.04.07-10.09.15:643][  3]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RoleBP_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:02B0
+[2019.04.07-10.09.15:644][  3]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RoleBP_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:02DA
+[2019.04.07-10.09.15:644][  3]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RoleBP_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:033E
+[2019.04.07-10.09.47:127][771]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.07-10.09.47:466][810]LogSlate: Window 'Reference Viewer' being destroyed
+[2019.04.07-10.09.48:600][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.07-10.09.51:829][331]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.07-10.09.51:834][331]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP
+[2019.04.07-10.09.51:845][331]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.04.07-10.09.52:019][331]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.04.07-10.09.52:019][331]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RoleBP_C /Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:00A3
+[2019.04.07-10.09.52:019][331]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RoleBP_C /Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:00E2
+[2019.04.07-10.09.52:019][331]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RoleBP_C /Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:0149
+[2019.04.07-10.09.52:019][331]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RoleBP_C /Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:0173
+[2019.04.07-10.09.52:019][331]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RoleBP_C /Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:01D7
+[2019.04.07-10.09.52:019][331]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RoleBP_C /Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:02B0
+[2019.04.07-10.09.52:020][331]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RoleBP_C /Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:02DA
+[2019.04.07-10.09.52:020][331]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RoleBP_C /Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:033E
+[2019.04.07-10.09.52:023][331]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2019.04.07-10.09.52:414][331]LogClass: Warning: Enum '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2019.04.07-10.09.52:440][331]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 117 classes and 0 folders.
+[2019.04.07-10.09.53:232][331]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.04.07-10.09.53:566][331]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RoleBP_C /Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.RoleBP_C_0
+	Function /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP_C:ExecuteUbergraph_RoleBP:00A3
+[2019.04.07-10.09.53:633][331]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2019.04.07-10.10.04:805][631]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.07-10.17.08:394][547]LogSlate: Window 'Pick Skeleton' being destroyed
+[2019.04.07-10.17.23:718][210]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/ManRole/Anims/Animation/stun_loop.stun_loop
+[2019.04.07-10.17.23:724][210]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.04.07-10.17.23:763][210]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.04.07-10.17.24:193][210]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.07-10.17.27:173][427]LogSlate: Window 'stun_loop' being destroyed
+[2019.04.07-10.19.15:236][ 84]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.046
+[2019.04.07-10.19.15:237][ 84]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/ManRole/Anims/AnimationBP/RoleBP] ([1] browsable assets)...
+[2019.04.07-10.19.15:245][ 84]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP]
+[2019.04.07-10.19.15:245][ 84]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/ManRole/Anims/AnimationBP/RoleBP]
+[2019.04.07-10.19.15:307][ 84]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/RoleBP_Auto16514670846E14CCDE580ABAAB0D4CAA1.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Saved/Autosaves/Game/Character/ManRole/Anims/AnimationBP/RoleBP_Auto1.uasset'
+[2019.04.07-10.19.15:307][ 84]LogFileHelpers: Auto-saving content packages took 0.070
+[2019.04.07-10.25.02:169][416]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookC1D96BF724D8E5A469252ED99CE3A308B.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Character/ManRole/Anims/Animation/RoleLookOffset/LookC.uasset'
+[2019.04.07-10.25.02:202][416]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookDB9DAF2AF45485823FB5AAB9F2D3E8B96.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Character/ManRole/Anims/Animation/RoleLookOffset/LookD.uasset'
+[2019.04.07-10.25.02:239][416]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookLDE88DFA347BF3A9215D13DAFB1FBD16C.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Character/ManRole/Anims/Animation/RoleLookOffset/LookL.uasset'
+[2019.04.07-10.25.02:276][416]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookLD1AB5C8C64758DACC975229A42CCDB7F1.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Character/ManRole/Anims/Animation/RoleLookOffset/LookLD.uasset'
+[2019.04.07-10.25.02:309][416]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookLUF0C27FD94348A0716D39D6B321CCF212.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Character/ManRole/Anims/Animation/RoleLookOffset/LookLU.uasset'
+[2019.04.07-10.25.02:342][416]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookR874E24E84D29E23D1D8CA58B8C31C1CD.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Character/ManRole/Anims/Animation/RoleLookOffset/LookR.uasset'
+[2019.04.07-10.25.03:181][416]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookC4CB8BD254FF6EE2330A3A0A4A3B4A18B.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Witch_Animation_Set/Anims/Animation/LookC.uasset'
+[2019.04.07-10.25.03:203][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Witch_Animation_Set/BS_BP/LookAround" FILE="../../../../../../UnrealEngineProject/MountainAndSea/Content/Witch_Animation_Set/BS_BP/LookAround.uasset" SILENT=true
+[2019.04.07-10.25.03:226][416]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookAround5C8B0F3B478FA88BB70880A3279FFD7E.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Witch_Animation_Set/BS_BP/LookAround.uasset'
+[2019.04.07-10.25.03:241][416]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookD531AA9924DA41E443904B5AE7C9CA9AB.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Witch_Animation_Set/Anims/Animation/LookD.uasset'
+[2019.04.07-10.25.03:258][416]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookLC94AB11D4D429609282A3E9D54BA758D.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Witch_Animation_Set/Anims/Animation/LookL.uasset'
+[2019.04.07-10.25.03:274][416]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookLD0F8FEC19439FD928A17773AEA897F21D.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Witch_Animation_Set/Anims/Animation/LookLD.uasset'
+[2019.04.07-10.25.03:291][416]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookLUA03DAADC441549303014CF84E66B0CC6.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Witch_Animation_Set/Anims/Animation/LookLU.uasset'
+[2019.04.07-10.25.03:308][416]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookRE0D8951C46EA8E080AB1169B49F34C68.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Witch_Animation_Set/Anims/Animation/LookR.uasset'
+[2019.04.07-10.28.47:705][270]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/ManRole/Anims/Animation/RoleLookOffset/LookC.LookC
+[2019.04.07-10.28.47:710][270]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.04.07-10.28.47:749][270]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.04.07-10.28.48:154][270]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.07-10.28.52:233][534]LogSlate: Window 'LookC' being destroyed
+[2019.04.07-10.28.56:467][ 26]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/ManRole/Anims/Animation/RoleLookOffset/LookD.LookD
+[2019.04.07-10.29.29:208][678]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookRDEDEAA83243D2752564D0FE91C2F9BA92.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Character/ManRole/Anims/Animation/RoleLookOffset/LookRD.uasset'
+[2019.04.07-10.29.29:240][678]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookRU1C13168344A8FED3F34D0AB2D5DF7BC4.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Character/ManRole/Anims/Animation/RoleLookOffset/LookRU.uasset'
+[2019.04.07-10.29.29:280][678]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookU4FD023BF4E72E32EE08DBBA268356996.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Character/ManRole/Anims/Animation/RoleLookOffset/LookU.uasset'
+[2019.04.07-10.29.29:753][678]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookRD3A5F3A8B48F41BAAF6E39585736F671D.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Witch_Animation_Set/Anims/Animation/LookRD.uasset'
+[2019.04.07-10.29.29:756][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Witch_Animation_Set/BS_BP/LookAround" FILE="../../../../../../UnrealEngineProject/MountainAndSea/Content/Witch_Animation_Set/BS_BP/LookAround.uasset" SILENT=true
+[2019.04.07-10.29.29:765][678]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookAround7E7F45A746DEDE3B5A6A11A5556B31B1.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Witch_Animation_Set/BS_BP/LookAround.uasset'
+[2019.04.07-10.29.29:779][678]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookRU066827D94F858894C7E5BC8D18256E0E.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Witch_Animation_Set/Anims/Animation/LookRU.uasset'
+[2019.04.07-10.29.29:794][678]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookU57F85F5D47BC3CE47C3493BAA1C35BE4.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Witch_Animation_Set/Anims/Animation/LookU.uasset'
+[2019.04.07-10.29.54:009][219]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.045
+[2019.04.07-10.29.54:010][219]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/ManRole/Anims/AnimationBP/RoleBP] ([1] browsable assets)...
+[2019.04.07-10.29.54:024][219]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/ManRole/Anims/AnimationBP/RoleBP.RoleBP]
+[2019.04.07-10.29.54:024][219]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/ManRole/Anims/AnimationBP/RoleBP]
+[2019.04.07-10.29.54:083][219]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/RoleBP_Auto2FA63B16141C4B949AC05248EC92A97C5.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Saved/Autosaves/Game/Character/ManRole/Anims/AnimationBP/RoleBP_Auto2.uasset'
+[2019.04.07-10.29.54:084][219]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/ManRole/Anims/Animation/RoleLookOffset/LookOffset] ([1] browsable assets)...
+[2019.04.07-10.29.54:097][219]OBJ SavePackage:     Rendered thumbnail for [AnimComposite /Game/Character/ManRole/Anims/Animation/RoleLookOffset/LookOffset.LookOffset]
+[2019.04.07-10.29.54:097][219]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/ManRole/Anims/Animation/RoleLookOffset/LookOffset]
+[2019.04.07-10.29.54:116][219]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/LookOffset_Auto22FF14B5F475D7DEF59EDAAA67BED830D.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Saved/Autosaves/Game/Character/ManRole/Anims/Animation/RoleLookOffset/LookOffset_Auto2.uasset'
+[2019.04.07-10.29.54:117][219]LogFileHelpers: Auto-saving content packages took 0.107
+[2019.04.07-10.30.52:128][430]LogAssetEditorManager: Opening Asset editor for AnimComposite /Game/Character/ManRole/Anims/Animation/RoleLookOffset/LookOffset.LookOffset
+[2019.04.07-10.32.10:203][640]LogAssetEditorManager: Opening Asset editor for AnimComposite /Game/Character/ManRole/Anims/Animation/RoleLookOffset/LookOffset.LookOffset
+[2019.04.07-10.32.10:207][640]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.04.07-10.32.10:242][640]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.04.07-10.32.10:597][640]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.07-10.32.46:082][927]LogSlate: Window 'Pick Skeleton' being destroyed
+[2019.04.07-10.32.47:809][128]LogAssetEditorManager: Opening Asset editor for AnimComposite /Game/Character/ManRole/Anims/Animation/RoleLookOffset/LookOffset.LookOffset
+[2019.04.07-10.32.47:814][128]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.04.07-10.32.47:835][128]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.04.07-10.32.48:187][128]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.07-10.32.53:057][553]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.07-10.33.24:869][ 77]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/UE4_Mannequin_Skeleton_AimOffset7DBB5FE4429779C12DFF1E8C209E0C2F.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Character/ManRole/Anims/Skeleton/UE4_Mannequin_Skeleton_AimOffset2D.uasset'
+[2019.04.07-10.33.39:876][850]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MountainAndSea/Saved/UE4_Mannequin_Skeleton_AimOffsetE94E0EF9404342B65C610DAC25CDC580.tmp' to '../../../../../../UnrealEngineProject/MountainAndSea/Content/Character/ManRole/Anims/Animation/RoleLookOffset/UE4_Mannequin_Skeleton_AimOffset2D.uasset'
+[2019.04.07-10.33.42:301][104]LogAssetEditorManager: Opening Asset editor for AimOffsetBlendSpace /Game/Character/ManRole/Anims/Animation/RoleLookOffset/UE4_Mannequin_Skeleton_AimOffset2D.UE4_Mannequin_Skeleton_AimOffset2D
+[2019.04.07-10.33.42:307][104]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.04.07-10.33.42:344][104]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.04.07-10.33.42:714][104]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.07-10.35.37:920][403]LogSlate: Window 'LookRU' being destroyed
+[2019.04.07-10.35.40:368][666]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/ManRole/Anims/Animation/RoleLookOffset/LookRU.LookRU
+[2019.04.07-10.35.40:375][666]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.04.07-10.35.40:420][666]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.04.07-10.35.40:801][666]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.07-10.36.21:674][908]LogSlate: Window 'LookRU' being destroyed
+[2019.04.07-10.36.59:920][635]LogSlate: Window 'Create Pose Asset' being destroyed
+[2019.04.07-10.37.01:110][758]LogAssetEditorManager: Opening Asset editor for PoseAsset /Game/Character/ManRole/Anims/Animation/RoleLookOffset/LookRU_PoseAsset.LookRU_PoseAsset
+[2019.04.07-10.37.01:292][760]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.04.07-10.37.01:761][760]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.469 s
+[2019.04.07-10.37.01:761][760]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.07-10.37.01:761][760]LogOutputDevice: Error: 
+[2019.04.07-10.37.01:761][760]LogOutputDevice: Error: Ensure condition failed: LUTIndex.IsValidIndex(PoseName.UID) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\AnimGraphRuntime\Private\AnimNodes\AnimNode_PoseHandler.cpp] [Line: 60]
+[2019.04.07-10.37.01:761][760]LogOutputDevice: Error: 
+[2019.04.07-10.37.01:761][760]LogOutputDevice: Error: Stack: 
+[2019.04.07-10.37.01:761][760]LogOutputDevice: Error: [Callstack] 0x00007ffe38378ed7 UE4Editor-AnimGraphRuntime.dll!UnknownFunction []
+[2019.04.07-10.37.01:761][760]LogOutputDevice: Error: [Callstack] 0x00007ffe38324609 UE4Editor-AnimGraphRuntime.dll!UnknownFunction []
+[2019.04.07-10.37.01:761][760]LogOutputDevice: Error: [Callstack] 0x00007ffe38323d25 UE4Editor-AnimGraphRuntime.dll!UnknownFunction []
+[2019.04.07-10.37.01:761][760]LogOutputDevice: Error: [Callstack] 0x00007ffe3838943a UE4Editor-AnimGraphRuntime.dll!UnknownFunction []
+[2019.04.07-10.37.01:761][760]LogOutputDevice: Error: [Callstack] 0x00007ffe38389375 UE4Editor-AnimGraphRuntime.dll!UnknownFunction []
+[2019.04.07-10.37.01:761][760]LogOutputDevice: Error: [Callstack] 0x00007ffe501b3165 UE4Editor-AnimGraph.dll!UnknownFunction []
+[2019.04.07-10.37.01:761][760]LogOutputDevice: Error: [Callstack] 0x00007ffe1d3b5cec UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.07-10.37.01:761][760]LogOutputDevice: Error: [Callstack] 0x00007ffe1d3b7094 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.07-10.37.01:761][760]LogOutputDevice: Error: [Callstack] 0x00007ffe1d77ae11 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.07-10.37.01:761][760]LogOutputDevice: Error: [Callstack] 0x00007ffe1d77e2bc UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe1d77d956 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe1d77d543 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe3bdfc7b8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe1d649cd4 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe1d66e704 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe1e4d4a2d UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe43c91798 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe43c91c56 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe43ca5085 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe1e52bb64 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe1e53b9a2 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe1dc0b6e4 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe1dc1776b UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe11394575 UE4Editor-Persona.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe3bd292d2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe3c141203 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe3ca62346 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ff79d0d6225 UE4Editor.exe!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ff79d0e596c UE4Editor.exe!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ff79d0e59ea UE4Editor.exe!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ff79d0f48da UE4Editor.exe!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ff79d0f659a UE4Editor.exe!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe72993dc4 KERNEL32.DLL!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: [Callstack] 0x00007ffe73683691 ntdll.dll!UnknownFunction []
+[2019.04.07-10.37.01:762][760]LogOutputDevice: Error: 
+[2019.04.07-10.37.01:771][760]LogStats:                SubmitErrorReport -  0.000 s
