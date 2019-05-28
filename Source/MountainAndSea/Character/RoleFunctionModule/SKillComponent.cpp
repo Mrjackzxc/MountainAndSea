@@ -12,7 +12,7 @@ USKillComponent::USKillComponent():m_nCurrentSkillId(0),m_bIsGroup(true)
 	PrimaryComponentTick.bCanEverTick = true;
 
 	ChangeSkillOperationType(LoadCharOperationType());
-	AMainCharacter * _pOwner = Cast<AMainCharacter>(GetOwner());
+	m_pMainCharacter = Cast<AMainCharacter>(GetOwner());
 	// ...
 }
 
@@ -58,9 +58,23 @@ void USKillComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 	// ...
 }
 
-void USKillComponent::OnChangePhase(const FSkillDataBase * skillData)
+void USKillComponent::OnChangePhase()
 {
-
+	switch (m_nSkillPhase)
+	{
+	case Phase_Prepare:
+		_playingSkill();
+		return;
+	case Phase_Playing:
+		_endingSkill();
+		return;
+	case Phase_Ending:
+		_interruptSkill();
+		return;
+	default:
+		m_pMainCharacter->OnSkillEnd();
+		return;
+	}
 }
 
 void USKillComponent::StartSkill(const FSkillDataBase * skillData)
@@ -70,50 +84,79 @@ void USKillComponent::StartSkill(const FSkillDataBase * skillData)
 		//TODO:Show SystemNotify
 		return;
 	}
-	if (m_pMainCharacter->ChangeRoleStat(SKillStat))
+	m_pCurrentSkillData = MakeShared<FSkillDataBase>(*skillData);
+	if (m_pCurrentSkillData.IsValid()&&m_pMainCharacter->ChangeRoleStat(SKillStat) )
 	{
-		_preparePlaySkill(skillData);
+		_preparePlaySkill();
 	}
 } 
 
-void USKillComponent::_preparePlaySkill(const FSkillDataBase * skillData)
+void USKillComponent::_preparePlaySkill()
 {
-	for (size_t i = 0; i < skillData->PhaseStep.Num(); i++)
+	if (m_pCurrentSkillData.IsValid())
 	{
-		const FSkillPhaseStruct & _skillPhase = skillData->PhaseStep[i];
-		if (_skillPhase.SkillPhase == 0)
+		for (size_t i = 0; i < m_pCurrentSkillData->PhaseStep.Num(); i++)
 		{
-			m_pMainCharacter->StopAnimMontage();
-			m_pMainCharacter->PlayAnimMontage(_skillPhase.SkillAnimMontage);
+			const FSkillPhaseStruct & _skillPhase = m_pCurrentSkillData->PhaseStep[i];
+			if (_skillPhase.SkillPhase == Phase_Prepare)
+			{
+				m_nSkillPhase = (ESkillPhaseEnum)_skillPhase.SkillPhase;
+				m_pMainCharacter->StopAnimMontage();
+				m_pMainCharacter->PlayAnimMontage(_skillPhase.SkillAnimMontage);
+				return;
+			}
+		}
+		_playingSkill();
+	}
+	
+}
+
+void USKillComponent::_playingSkill()
+{
+	if (m_pCurrentSkillData.IsValid())
+	{
+		for (size_t i = 0; i < m_pCurrentSkillData->PhaseStep.Num(); i++)
+		{
+			const FSkillPhaseStruct & _skillPhase = m_pCurrentSkillData->PhaseStep[i];
+			if (_skillPhase.SkillPhase == Phase_Playing)
+			{
+				m_nSkillPhase = (ESkillPhaseEnum)_skillPhase.SkillPhase;
+				m_pMainCharacter->StopAnimMontage();
+				m_pMainCharacter->PlayAnimMontage(_skillPhase.SkillAnimMontage);
+				return;
+			}
 		}
 	}
 }
 
-void USKillComponent::_playingSkill(const FSkillDataBase * skillData)
+void USKillComponent::_endingSkill()
 {
-	for (size_t i = 0; i < skillData->PhaseStep.Num(); i++)
+	if (m_pCurrentSkillData.IsValid())
 	{
-		const FSkillPhaseStruct & _skillPhase = skillData->PhaseStep[i];
-		if (_skillPhase.SkillPhase == 1)
+		for (size_t i = 0; i < m_pCurrentSkillData->PhaseStep.Num(); i++)
 		{
-			m_pMainCharacter->StopAnimMontage();
-			m_pMainCharacter->PlayAnimMontage(_skillPhase.SkillAnimMontage);
+			const FSkillPhaseStruct & _skillPhase = m_pCurrentSkillData->PhaseStep[i];
+			if (_skillPhase.SkillPhase == Phase_Ending)
+			{
+				m_nSkillPhase = (ESkillPhaseEnum)_skillPhase.SkillPhase;
+				m_pMainCharacter->StopAnimMontage();
+				m_pMainCharacter->PlayAnimMontage(_skillPhase.SkillAnimMontage);
+				return;
+			}
 		}
 	}
-	_endingSkill(skillData);
+	_interruptSkill();
 }
 
-void USKillComponent::_endingSkill(const FSkillDataBase * skillData)
+void USKillComponent::_interruptSkill()
 {
-	for (size_t i = 0; i < skillData->PhaseStep.Num(); i++)
+	if (m_pMainCharacter!=nullptr)
 	{
-		const FSkillPhaseStruct & _skillPhase = skillData->PhaseStep[i];
-		if (_skillPhase.SkillPhase == 2)
-		{
-			m_pMainCharacter->StopAnimMontage();
-			m_pMainCharacter->PlayAnimMontage(_skillPhase.SkillAnimMontage);
-		}
+		m_pMainCharacter->StopAnimMontage();
+		m_pMainCharacter->OnSkillEnd();
 	}
+	m_nSkillPhase = Phase_Max;
+	m_pCurrentSkillData.Reset();
 }
 
 void USKillComponent::ResponseSkillkeyboard(FString key)
@@ -124,5 +167,14 @@ void USKillComponent::ResponseSkillkeyboard(FString key)
 void USKillComponent::LunchSkill()
 {
 	m_pSkillConfirm->LunchSkill();
+}
+
+bool USKillComponent::GetSkillIsAllowMove() const
+{
+	if (m_pCurrentSkillData.IsValid())
+	{
+		return m_pCurrentSkillData->CanMove;
+	}
+	return true;
 }
 

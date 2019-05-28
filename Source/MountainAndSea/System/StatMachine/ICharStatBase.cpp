@@ -38,7 +38,7 @@ void ICharStatBase::SetStatValid(TArray<ECharBaseStat> eStat)
 
 CharStatIdle::CharStatIdle():ICharStatBase(IdleStat)
 {
-	SetStatValid({CombatStat, SKillStat, UsepropStat,JumpStat});
+	SetStatValid({CombatStat, SKillStat, UsepropStat,JumpStat,IdleStat });
 }
 
 CharStatIdle::~CharStatIdle()
@@ -92,7 +92,7 @@ void CharStatJump::OnLeaveStatFailed(AMainCharacter * m_pRolePtr, ECharBaseStat 
 
 CharStatSkill::CharStatSkill() :ICharStatBase(SKillStat)
 {
-	SetStatValid({IdleStat, ControlStat});
+	SetStatValid({ SKillStat,IdleStat, ControlStat});
 }
 
 CharStatSkill::~CharStatSkill()
@@ -102,12 +102,21 @@ CharStatSkill::~CharStatSkill()
 
 void CharStatSkill::OnLeaveStat(AMainCharacter * m_pRolePtr)
 {
-
+	m_pRolePtr->SetRoleCanMove(true);
+	m_pRolePtr->SetRoleCanMove(true);
 }
 
 void CharStatSkill::OnGetIntoStat(AMainCharacter * m_pRolePtr)
 {
-
+	if (!m_pRolePtr->GetRoleSkillComponent()->GetSkillIsAllowMove())
+	{
+		m_pRolePtr->SetRoleCanMove(false) ;
+		m_pRolePtr->SetRoleCanMove(false);
+	}
+	else {
+		m_pRolePtr->SetRoleCanMove(true);
+		m_pRolePtr->SetRoleCanMove(true);
+	}
 }
 
 void CharStatSkill::OnLeaveStatFailed(AMainCharacter * m_pRolePtr, ECharBaseStat newStat)

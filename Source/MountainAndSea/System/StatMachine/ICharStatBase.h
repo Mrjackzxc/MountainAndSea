@@ -24,7 +24,7 @@ protected:
 
 	int32 m_nStatValid= 0;
 protected:
-	ECharBaseStat GetCurrentStat() { return m_nCharBaseStat; }
+	ECharBaseStat GetCurrentStat()const { return m_nCharBaseStat; }
 
 	virtual bool ValidChangeStat(ECharBaseStat);
 

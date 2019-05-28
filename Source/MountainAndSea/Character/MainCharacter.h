@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "CharBaseInfoDef.h"
 #include "ManRole/CRoleStatMachine.h"
+#include "RoleFunctionModule/SKillComponent.h"
 #include "MainCharacter.generated.h"
 
 
@@ -17,6 +18,10 @@ class MOUNTAINANDSEA_API AMainCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AMainCharacter();
+
+protected:
+	UPROPERTY(Category = Character, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+		USKillComponent * CharacterSkillComponent;
 
 protected:
 	// Called when the game starts or when spawned
@@ -32,6 +37,10 @@ public:
 	//状态机数据管理
 protected:
 	CRoleStatMachine m_fStatMachine;
+
+	bool m_bCanMove;
+
+	bool m_bCanJump;
 	
 public:
 	//get role Stat
@@ -40,6 +49,10 @@ public:
 	void OnRoleStatChange(ECharBaseStat eStat);
 
 	bool ChangeRoleStat(ECharBaseStat eStat);
+
+	void SetRoleCanMove(bool canMove);
+
+	void SetRoleCanJump(bool canJump);
 
 	//方向，速度等基本数据
 protected:
@@ -115,6 +128,10 @@ public:
 	void ConsumeHp(int32 value);
 
 	void ConsumeMp(int32 value);
+
+	void OnSkillEnd();
+
+	USKillComponent * GetRoleSkillComponent() const {	return CharacterSkillComponent;};
 
 
 };

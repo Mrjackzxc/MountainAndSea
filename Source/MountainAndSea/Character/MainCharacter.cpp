@@ -8,10 +8,13 @@
 #include "Engine/Engine.h"
 
 // Sets default values
-AMainCharacter::AMainCharacter():m_fPitchHightLimit(89),m_fPitchLowLimit(-60), BaseTurnRate(1),BaseLookUpRate(1), m_fStatMachine(this)
+AMainCharacter::AMainCharacter():m_fPitchHightLimit(89),m_fPitchLowLimit(-60),\
+BaseTurnRate(1),BaseLookUpRate(1), m_fStatMachine(this), m_bCanMove(true), m_bCanJump(true)
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	CharacterSkillComponent = CreateDefaultSubobject<USKillComponent>(TEXT("SkillComponent"));
+	
 }
 
 // Called when the game starts or w hen spawned
@@ -53,7 +56,7 @@ void AMainCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInpu
 
 void AMainCharacter::MoveForward(float Value)
 {
-	if ((Controller != NULL) && (Value != 0.0f))
+	if ((Controller != NULL) && (Value != 0.0f)&&m_bCanMove)
 	{
 		// find out which way is forward
 		const FRotator YawRotation(0, m_fControllerRotator.Yaw, 0);
@@ -66,7 +69,7 @@ void AMainCharacter::MoveForward(float Value)
 
 void AMainCharacter::MoveRight(float Value)
 {
-	if ((Controller != NULL) && (Value != 0.0f))
+	if ((Controller != NULL) && (Value != 0.0f) && m_bCanMove)
 	{
 		// find out which way is right
 		const FRotator YawRotation(0, m_fControllerRotator.Yaw, 0);
@@ -99,7 +102,10 @@ void AMainCharacter::LookUpAtRate(float Rate)
 
 void AMainCharacter::DoJump()
 {
-	m_fStatMachine.ChangeStat(JumpStat);
+	if (m_bCanJump)
+	{
+		m_fStatMachine.ChangeStat(JumpStat);
+	}
 }
 
 void AMainCharacter::Landed(const FHitResult& Hit)
@@ -116,6 +122,11 @@ void AMainCharacter::ConsumeHp(int32 value)
 void AMainCharacter::ConsumeMp(int32 value)
 {
 	m_fHeroBaseInfo.m_nHeroMP = FMath::Clamp(m_fHeroBaseInfo.m_nHeroMP - value, 0, m_fHeroBaseInfo.m_nHeroMP);
+}
+
+void AMainCharacter::OnSkillEnd()
+{
+	m_fStatMachine.ChangeStat(IdleStat);
 }
 
 ECharBaseStat AMainCharacter::GetRoleStat() const
@@ -135,5 +146,15 @@ void AMainCharacter::OnRoleStatChange(ECharBaseStat eStat)
 bool AMainCharacter::ChangeRoleStat(ECharBaseStat eStat)
 {
 	return m_fStatMachine.ChangeStat(eStat);
+}
+
+void AMainCharacter::SetRoleCanMove(bool canMove)
+{
+	m_bCanMove = canMove;
+}
+
+void AMainCharacter::SetRoleCanJump(bool canJump)
+{
+	m_bCanJump = canJump;
 }
 

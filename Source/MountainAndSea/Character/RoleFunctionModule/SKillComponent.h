@@ -24,11 +24,14 @@ protected:
 
 	int32 m_nCurrentSkillId;
 
-	int32 m_nSkillPhase;
+	ESkillPhaseEnum m_nSkillPhase;
 
 	TSharedPtr<ISkillConfirmInterface> m_pSkillConfirm;
 
 	AMainCharacter * m_pMainCharacter;
+
+	TSharedPtr<FSkillDataBase> m_pCurrentSkillData;
+
 
 protected:
 	bool m_bIsGroup;
@@ -43,16 +46,18 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	void OnChangePhase(const FSkillDataBase * skillData); 
+	void OnChangePhase(); 
 
 	void StartSkill(const FSkillDataBase * skillData);
 
 protected:
-	void _preparePlaySkill(const FSkillDataBase * skillData);
+	void _preparePlaySkill();
 
-	void _playingSkill(const FSkillDataBase * skillData);
+	void _playingSkill();
 
-	void _endingSkill(const FSkillDataBase * skillData);
+	void _endingSkill();
+
+	void _interruptSkill();
 
 public://Response skill keyboard 
 	UFUNCTION(BlueprintCallable)
@@ -60,4 +65,6 @@ public://Response skill keyboard
 
 	UFUNCTION(BlueprintCallable)
 	void LunchSkill();
+
+	bool GetSkillIsAllowMove() const ;
 };

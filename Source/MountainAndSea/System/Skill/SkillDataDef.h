@@ -20,7 +20,8 @@ enum ESkillPhaseEnum
 {
 	Phase_Prepare,//准备阶段
 	Phase_Playing,//播放阶段
-	Phase_Ending  //结束阶段
+	Phase_Ending,  //结束阶段
+	Phase_Max
 };
 
 USTRUCT(BlueprintType)
@@ -76,6 +77,9 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
 		int32 EndingTime;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+		bool CanMove=true;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
 		TArray<FSkillPhaseStruct> PhaseStep;//技能阶段
