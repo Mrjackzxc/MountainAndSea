@@ -32,11 +32,11 @@ void CSkillGroupConfirm::LoadConfig()
 // 	SkillKeyValue["r"] = Base_Element_Water;
 // 	SkillKeyValue["z"] = Base_Element_Fire;
 // 	SkillKeyValue["c"] = Base_Element_Earth;
-	SkillKeyValue.Add("Q", Base_Element_Metal);
-	SkillKeyValue.Add("E", Base_Element_Wood);
-	SkillKeyValue.Add("R", Base_Element_Water);
-	SkillKeyValue.Add("Z", Base_Element_Fire);
-	SkillKeyValue.Add("C", Base_Element_Earth);
+	SkillKeyValue.Add(TEXT("Q"), Base_Element_Metal);
+	SkillKeyValue.Add(TEXT("E"), Base_Element_Wood);
+	SkillKeyValue.Add(TEXT("R"), Base_Element_Water);
+	SkillKeyValue.Add(TEXT("Z"), Base_Element_Fire);
+	SkillKeyValue.Add(TEXT("C"), Base_Element_Earth);
 }
 
 void CSkillGroupConfirm::OnSkillKeyBoardEnter(const FString & key)
@@ -71,11 +71,11 @@ CSkillSingleConfirm::~CSkillSingleConfirm()
 void CSkillSingleConfirm::LoadConfig()
 {
 	//TODO:Load Skill Config
-	SkillKeyValue.Add("Q", 10010);
-	SkillKeyValue.Add("E", 10020);
-	SkillKeyValue.Add("R", 10030);
-	SkillKeyValue.Add("Z", 10040);
-	SkillKeyValue.Add("C", 10050);
+	SkillKeyValue.Add(TEXT("Q"), 111);
+	SkillKeyValue.Add(TEXT("E"), 112);
+	SkillKeyValue.Add(TEXT("R"), 113);
+	SkillKeyValue.Add(TEXT("Z"), 114);
+	SkillKeyValue.Add(TEXT("C"), 115);
 }
 
 void CSkillSingleConfirm::OnSkillKeyBoardEnter(const FString & key)

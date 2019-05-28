@@ -50,6 +50,8 @@ public:
 
 	void StartSkill(const FSkillDataBase * skillData);
 
+	bool ValidateSkill(const FSkillDataBase * skillData);
+
 protected:
 	void _preparePlaySkill();
 
@@ -67,4 +69,7 @@ public://Response skill keyboard
 	void LunchSkill();
 
 	bool GetSkillIsAllowMove() const ;
+
+// 	UFUNCTION(BlueprintCallable)
+// 		void SendSkill();
 };

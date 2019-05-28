@@ -134,4 +134,5 @@ public:
 	USKillComponent * GetRoleSkillComponent() const {	return CharacterSkillComponent;};
 
 
+
 };

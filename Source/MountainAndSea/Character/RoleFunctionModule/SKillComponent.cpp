@@ -5,7 +5,7 @@
 #include "../MainCharacter.h"
 
 // Sets default values for this component's properties
-USKillComponent::USKillComponent():m_nCurrentSkillId(0),m_bIsGroup(true)
+USKillComponent::USKillComponent():m_nCurrentSkillId(0),m_bIsGroup(false)
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
@@ -29,7 +29,7 @@ void USKillComponent::BeginPlay()
 bool USKillComponent::LoadCharOperationType()
 {
 	//TODO:
-	return true;
+	return false;
 }
 
 void USKillComponent::SaveCharOperationType()
@@ -84,12 +84,30 @@ void USKillComponent::StartSkill(const FSkillDataBase * skillData)
 		//TODO:Show SystemNotify
 		return;
 	}
-	m_pCurrentSkillData = MakeShared<FSkillDataBase>(*skillData);
-	if (m_pCurrentSkillData.IsValid()&&m_pMainCharacter->ChangeRoleStat(SKillStat) )
+	if (ValidateSkill(skillData)&&m_pMainCharacter->ChangeRoleStat(SKillStat) )
 	{
 		_preparePlaySkill();
 	}
 } 
+
+bool USKillComponent::ValidateSkill(const FSkillDataBase * skillData)
+{
+	if (skillData == nullptr || m_pMainCharacter == nullptr)
+	{
+		//TODO:Show SystemNotify
+		return false;
+	}
+	if (m_pCurrentSkillData.IsValid()&&!m_pCurrentSkillData->BeCancel)
+	{
+		return false;
+	}
+	m_pCurrentSkillData = MakeShared<FSkillDataBase>(*skillData);
+	if (!m_pCurrentSkillData.IsValid())
+	{
+		return false;
+	}
+	return true;
+}
 
 void USKillComponent::_preparePlaySkill()
 {
