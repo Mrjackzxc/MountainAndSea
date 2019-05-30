@@ -196,3 +196,8 @@ bool USKillComponent::GetSkillIsAllowMove() const
 	return true;
 }
 
+void USKillComponent::SpawnSkill()
+{
+
+}
+

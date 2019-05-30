@@ -70,6 +70,6 @@ public://Response skill keyboard
 
 	bool GetSkillIsAllowMove() const ;
 
-// 	UFUNCTION(BlueprintCallable)
-// 		void SendSkill();
+ 	UFUNCTION(BlueprintCallable)
+ 		void SpawnSkill();
 };
