@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Character/CharBaseInfoDef.h"
 #include "SkillDataDef.h"
+#include "Particles/ParticleSystemComponent.h"
 #include "SkillInstance.generated.h"
 
 UCLASS()
@@ -15,15 +16,17 @@ class MOUNTAINANDSEA_API ASkillInstance : public AActor
 	
 public:	
 	// Sets default values for this actor's properties
-	ASkillInstance(/*const FBaseElements & RoleBaseElement, const FSkillInstanceData & m_fSkillData*/);
+	ASkillInstance();
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	//const FBaseElements m_fRoleBaseElement;
-	//
-	//const FSkillInstanceData m_fSkillData;
+	FBaseElements m_fRoleBaseElement;
+
+	FSkillInstanceData m_fSkillData;
+
+	UParticleSystemComponent * m_pSkillComponent;
 
 public:	
 	// Called every frame
@@ -31,6 +34,9 @@ public:
 
 	void SetSkillEffict(UParticleSystem * SkillPartic);
 
-	void InitSkill(FTransform startTransform);
+	void InitSkill(const FBaseElements & RoleBaseElement, const FSkillInstanceData & SkillData,FTransform startTransform);
+
+protected:
+	
 
 };

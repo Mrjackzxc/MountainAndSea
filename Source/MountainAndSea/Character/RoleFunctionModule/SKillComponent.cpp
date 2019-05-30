@@ -3,6 +3,9 @@
 #include "SKillComponent.h"
 #include "ISkillConfirmInterface.h"
 #include "../MainCharacter.h"
+#include "System/Skill/SkillInstance.h"
+#include "Engine/World.h"
+#include "System/TableManager/CTableManager.h"
 
 // Sets default values for this component's properties
 USKillComponent::USKillComponent():m_nCurrentSkillId(0),m_bIsGroup(false)
@@ -69,7 +72,7 @@ void USKillComponent::OnChangePhase()
 		_endingSkill();
 		return;
 	case Phase_Ending:
-		_interruptSkill();
+		InterruptSkill();
 		return;
 	default:
 		m_pMainCharacter->OnSkillEnd();
@@ -113,16 +116,12 @@ void USKillComponent::_preparePlaySkill()
 {
 	if (m_pCurrentSkillData.IsValid())
 	{
-		for (size_t i = 0; i < m_pCurrentSkillData->PhaseStep.Num(); i++)
+		if (m_pCurrentSkillData->PhaseStep.Contains(Phase_Prepare))
 		{
-			const FSkillPhaseStruct & _skillPhase = m_pCurrentSkillData->PhaseStep[i];
-			if (_skillPhase.SkillPhase == Phase_Prepare)
-			{
-				m_nSkillPhase = (ESkillPhaseEnum)_skillPhase.SkillPhase;
-				m_pMainCharacter->StopAnimMontage();
-				m_pMainCharacter->PlayAnimMontage(_skillPhase.SkillAnimMontage);
-				return;
-			}
+			m_nSkillPhase = Phase_Prepare;
+			m_pMainCharacter->StopAnimMontage();
+			m_pMainCharacter->PlayAnimMontage(m_pCurrentSkillData->PhaseStep[Phase_Prepare].SkillAnimMontage);
+			return;
 		}
 		_playingSkill();
 	}
@@ -133,16 +132,12 @@ void USKillComponent::_playingSkill()
 {
 	if (m_pCurrentSkillData.IsValid())
 	{
-		for (size_t i = 0; i < m_pCurrentSkillData->PhaseStep.Num(); i++)
+		if (m_pCurrentSkillData->PhaseStep.Contains(Phase_Playing))
 		{
-			const FSkillPhaseStruct & _skillPhase = m_pCurrentSkillData->PhaseStep[i];
-			if (_skillPhase.SkillPhase == Phase_Playing)
-			{
-				m_nSkillPhase = (ESkillPhaseEnum)_skillPhase.SkillPhase;
-				m_pMainCharacter->StopAnimMontage();
-				m_pMainCharacter->PlayAnimMontage(_skillPhase.SkillAnimMontage);
-				return;
-			}
+			m_nSkillPhase = Phase_Playing;
+			m_pMainCharacter->StopAnimMontage();
+			m_pMainCharacter->PlayAnimMontage(m_pCurrentSkillData->PhaseStep[Phase_Playing].SkillAnimMontage);
+			return;
 		}
 	}
 }
@@ -151,22 +146,18 @@ void USKillComponent::_endingSkill()
 {
 	if (m_pCurrentSkillData.IsValid())
 	{
-		for (size_t i = 0; i < m_pCurrentSkillData->PhaseStep.Num(); i++)
+		if (m_pCurrentSkillData->PhaseStep.Contains(Phase_Ending))
 		{
-			const FSkillPhaseStruct & _skillPhase = m_pCurrentSkillData->PhaseStep[i];
-			if (_skillPhase.SkillPhase == Phase_Ending)
-			{
-				m_nSkillPhase = (ESkillPhaseEnum)_skillPhase.SkillPhase;
-				m_pMainCharacter->StopAnimMontage();
-				m_pMainCharacter->PlayAnimMontage(_skillPhase.SkillAnimMontage);
-				return;
-			}
+			m_nSkillPhase = Phase_Ending;
+			m_pMainCharacter->StopAnimMontage();
+			m_pMainCharacter->PlayAnimMontage(m_pCurrentSkillData->PhaseStep[Phase_Ending].SkillAnimMontage);
+			return;
 		}
 	}
-	_interruptSkill();
+	InterruptSkill();
 }
 
-void USKillComponent::_interruptSkill()
+void USKillComponent::InterruptSkill()
 {
 	if (m_pMainCharacter!=nullptr)
 	{
@@ -198,6 +189,10 @@ bool USKillComponent::GetSkillIsAllowMove() const
 
 void USKillComponent::SpawnSkill()
 {
-
+	const FSkillInstanceData * _skillData = CTableWrapper<FSkillInstanceData>::GetItem(m_pCurrentSkillData->SkillInstanceId);
+	if (_skillData == nullptr)
+	{
+		return;
+	}
+	//GetWorld()->SpawnActor<ASkillInstance>(_skillData,);
 }
-

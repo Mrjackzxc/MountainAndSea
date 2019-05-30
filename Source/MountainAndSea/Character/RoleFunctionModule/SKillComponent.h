@@ -58,8 +58,9 @@ protected:
 	void _playingSkill();
 
 	void _endingSkill();
-
-	void _interruptSkill();
+public:
+	UFUNCTION(BlueprintCallable)
+	void InterruptSkill();
 
 public://Response skill keyboard 
 	UFUNCTION(BlueprintCallable)

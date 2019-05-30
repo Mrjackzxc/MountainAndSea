@@ -76,7 +76,10 @@ public:
 		bool BeCancel;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
-		TArray<FSkillPhaseStruct> PhaseStep;//技能阶段
+		int32 SkillInstanceId;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+		TMap<int32,FSkillPhaseStruct> PhaseStep;//技能阶段
 public:
 	static FString GetTableName()
 	{
@@ -103,9 +106,6 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
 		int32 LoopTimes;//循环次数
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
-		TArray<int32> EffectId;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
 		UParticleSystem* SkillEffect;//技能特效
