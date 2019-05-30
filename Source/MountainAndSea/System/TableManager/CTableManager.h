@@ -17,7 +17,7 @@ public:
 		static UDataTable * s_pTable = NULL;
 		if (s_pTable == NULL)
 		{
-			FString InName("DataTable'/Game/DataTable/");
+			FString InName("DataTable'/Game/MountainAndSea/DataTable/");
 			InName += DataType::GetTableName();
 			InName += TEXT("'"); 
 			s_pTable = (UDataTable*)::StaticLoadObject(UDataTable::StaticClass(), nullptr, *InName);
