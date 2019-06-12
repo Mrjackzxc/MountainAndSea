@@ -136,8 +136,7 @@ void USKillComponent::_playingSkill()
 		if (m_pCurrentSkillData->PhaseStep.Contains(Phase_Playing))
 		{
 			m_nSkillPhase = Phase_Playing;
-			m_pMainCharacter->StopAnimMontage();
-			m_pMainCharacter->PlayAnimMontage(m_pCurrentSkillData->PhaseStep[Phase_Playing].SkillAnimMontage);
+			m_pMainCharacter->RPC_Muitcast_PlaySkillMontage(m_pCurrentSkillData->PhaseStep[Phase_Playing].SkillAnimMontage);
 			return;
 		}
 	}
@@ -150,8 +149,7 @@ void USKillComponent::_endingSkill()
 		if (m_pCurrentSkillData->PhaseStep.Contains(Phase_Ending))
 		{
 			m_nSkillPhase = Phase_Ending;
-			m_pMainCharacter->StopAnimMontage();
-			m_pMainCharacter->PlayAnimMontage(m_pCurrentSkillData->PhaseStep[Phase_Ending].SkillAnimMontage);
+			m_pMainCharacter->RPC_Muitcast_PlaySkillMontage(m_pCurrentSkillData->PhaseStep[Phase_Ending].SkillAnimMontage);
 			return;
 		}
 	}

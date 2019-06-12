@@ -144,7 +144,7 @@ void AMainCharacter::ConsumeMp(int32 value)
 
 void AMainCharacter::OnSkillEnd()
 {
-	m_fStatMachine.ChangeStatWithValid(IdleStat);
+	RPC_Muitcast_ChangeRoleState(IdleStat);
 }
 
 void AMainCharacter::RPC_Muitcast_PlaySkillMontage_Implementation(UAnimMontage *SkillMontage)
