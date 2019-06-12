@@ -30,7 +30,11 @@ public:
 	RoleStatChangeDelegate m_nMachineStatDelegate;
 
 public:
-	bool ChangeStat(ECharBaseStat eSatType);
+	bool ChangeStatWithValid(ECharBaseStat eSatType);
+
+	void ChangeStat(ECharBaseStat eStatType);
+
+	bool ValidStatChange(ECharBaseStat eSatType);
 
 	ECharBaseStat GetStat() const;
 

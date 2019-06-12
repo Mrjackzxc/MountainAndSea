@@ -1,0 +1,1663 @@
+﻿Log file open, 06/12/19 11:35:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: MountainAndSea
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.538326
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.065s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: AMD Ryzen 7 2700X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 1080 Ti
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UnrealEngine/UnrealEngine-release/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.06.12-03.35.46:744][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.06.12-03.35.46:744][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.06.12-03.35.46:745][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.06.12-03.35.46:745][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.06.12-03.35.46:745][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.06.12-03.35.46:745][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.06.12-03.35.46:745][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.06.12-03.35.46:745][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.06.12-03.35.46:745][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.06.12-03.35.46:745][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.06.12-03.35.46:745][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.06.12-03.35.46:745][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.06.12-03.35.46:745][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.06.12-03.35.46:745][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.06.12-03.35.46:745][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.06.12-03.35.46:745][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.06.12-03.35.46:745][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.06.12-03.35.46:745][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.06.12-03.35.46:745][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.06.12-03.35.46:748][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.35.46:748][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.12-03.35.46:748][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.12-03.35.46:748][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.35.46:748][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.12-03.35.46:748][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.35.46:748][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.12-03.35.46:748][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.12-03.35.46:749][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.12-03.35.46:750][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.12-03.35.46:750][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.12-03.35.46:750][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.12-03.35.46:772][  0]LogHAL: Display: Platform has ~ 16 GB [17096769536 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.06.12-03.35.46:772][  0]LogInit: Going up to parent DeviceProfile []
+[2019.06.12-03.35.46:772][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.12-03.35.46:772][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.06.12-03.35.46:773][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.06.12-03.35.46:773][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.06.12-03.35.46:773][  0]LogInit: Computer: DESKTOP-82VF2NQ
+[2019.06.12-03.35.46:773][  0]LogInit: User: yifan
+[2019.06.12-03.35.46:773][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.06.12-03.35.46:773][  0]LogInit: High frequency timer resolution =3.898925 MHz
+[2019.06.12-03.35.46:774][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.06.12-03.35.46:774][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.12-03.35.46:774][  0]LogMemory: Process Physical Memory: 105.00 MB used, 105.00 MB peak
+[2019.06.12-03.35.46:774][  0]LogMemory: Process Virtual Memory: 89.46 MB used, 89.46 MB peak
+[2019.06.12-03.35.46:774][  0]LogMemory: Physical Memory: 7656.07 MB used,  8648.68 MB free, 16304.75 MB total
+[2019.06.12-03.35.46:774][  0]LogMemory: Virtual Memory: 4683.96 MB used,  134213040.00 MB free, 134217728.00 MB total
+[2019.06.12-03.35.46:794][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.06.12-03.35.46:794][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.06.12-03.35.47:180][  0]LogStreaming: Display: Took  0.386s to InitEngineTextLocalization.
+[2019.06.12-03.35.47:180][  0]LogInit: Setting process to per monitor DPI aware
+[2019.06.12-03.35.47:200][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.12-03.35.47:200][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.12-03.35.47:386][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.12-03.35.47:386][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.12-03.35.47:456][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2019.06.12-03.35.47:456][  0]LogD3D11RHI:       11127/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.06.12-03.35.47:458][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.12-03.35.47:458][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.12-03.35.47:458][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.12-03.35.47:467][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.12-03.35.47:467][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2019.06.12-03.35.47:467][  0]LogWindows: EnumDisplayDevices:
+[2019.06.12-03.35.47:467][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2019.06.12-03.35.47:468][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.06.12-03.35.47:468][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.06.12-03.35.47:468][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.06.12-03.35.47:468][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.06.12-03.35.47:468][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2019.06.12-03.35.47:468][  0]LogD3D11RHI:   Driver Version: 399.24 (internal:24.21.13.9924, unified:399.24)
+[2019.06.12-03.35.47:468][  0]LogD3D11RHI:      Driver Date: 9-5-2018
+[2019.06.12-03.35.47:468][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2019.06.12-03.35.47:517][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.12-03.35.47:535][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.06.12-03.35.47:916][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.06.12-03.35.47:929][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.06.12-03.35.47:941][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.06.12-03.35.47:954][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.06.12-03.35.47:967][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.06.12-03.35.47:979][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.06.12-03.35.47:992][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.06.12-03.35.48:005][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.06.12-03.35.48:011][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.06.12-03.35.48:092][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:092][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:092][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:092][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:092][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:092][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:092][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:092][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:092][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:092][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:092][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:092][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:092][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:092][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:092][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:093][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:093][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:093][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.35.48:094][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.06.12-03.35.48:164][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.12-03.35.48:164][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.12-03.35.48:192][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.12-03.35.48:193][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.12-03.35.48:205][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.06.12-03.35.48:217][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.06.12-03.35.48:232][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.06.12-03.35.48:259][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.06.12-03.35.48:307][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.06.12-03.35.48:307][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.06.12-03.35.48:307][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.12-03.35.48:367][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../UnrealEngineProject/MountainAndSea/Intermediate/Shaders/WorkingDirectory/18884/).
+[2019.06.12-03.35.48:367][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/yifan/AppData/Local/Temp/UnrealShaderWorkingDir/0D1B801B4278E6961E65AE8C5AE609F3/'.
+[2019.06.12-03.35.48:368][  0]LogXGEController: Cleaning working directory: C:/Users/yifan/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.06.12-03.35.48:368][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.12-03.35.48:369][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.12-03.35.48:369][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.12-03.35.48:904][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.12-03.35.48:948][  0]LogDerivedDataCache: Loaded boot cache 0.04s 74MB C:/Users/yifan/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.06.12-03.35.48:948][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/yifan/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.06.12-03.35.48:949][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealEngineProject/MountainAndSea/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.12-03.35.48:949][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.12-03.35.48:949][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealEngineProject/MountainAndSea/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.12-03.35.48:949][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.12-03.35.48:979][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.12-03.35.48:979][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.12-03.35.48:979][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.06.12-03.35.48:992][  0]LogDerivedDataCache: Using Local data cache path C:/Users/yifan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.12-03.35.48:992][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.12-03.35.48:992][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.12-03.35.49:025][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.12-03.35.49:027][  0]LogSlate: Using FreeType 2.6.0
+[2019.06.12-03.35.49:027][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.12-03.35.49:109][  0]LogAssetRegistry: FAssetRegistry took 0.0334 seconds to start up
+[2019.06.12-03.35.49:462][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.12-03.35.49:617][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.06.12-03.35.49:620][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.06.12-03.35.49:620][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.06.12-03.35.49:620][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.12-03.35.49:620][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.06.12-03.35.49:632][  0]LogNetVersion: MountainAndSea 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3138369148)
+[2019.06.12-03.35.50:127][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.061561 seconds
+[2019.06.12-03.35.50:135][  0]LogUObjectArray: 39776 objects as part of root set at end of initial load.
+[2019.06.12-03.35.50:135][  0]LogUObjectAllocator: 6914888 out of 0 bytes used by permanent object pool.
+[2019.06.12-03.35.50:135][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.12-03.35.50:915][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.12-03.35.50:929][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.12-03.35.51:756][  0]SourceControl: Source control is disabled
+[2019.06.12-03.35.51:756][  0]SourceControl: Source control is disabled
+[2019.06.12-03.35.51:757][  0]SourceControl: Source control is disabled
+[2019.06.12-03.35.51:758][  0]SourceControl: Source control is disabled
+[2019.06.12-03.35.51:927][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.12-03.35.52:009][  0]LogOcInput: OculusInput pre-init called
+[2019.06.12-03.35.52:155][  0]LogEngine: Initializing Engine...
+[2019.06.12-03.35.52:155][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.12-03.35.52:157][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.06.12-03.35.52:157][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.12-03.35.52:157][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.06.12-03.35.52:157][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.12-03.35.52:376][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.06.12-03.35.52:398][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.12-03.35.52:412][  0]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.12-03.35.52:442][  0]LogInit: FAudioDevice initialized.
+[2019.06.12-03.35.52:443][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.06.12-03.35.52:583][  0]LogDerivedDataCache: Saved boot cache 0.14s 74MB C:/Users/yifan/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.06.12-03.35.52:595][  0]LogInit: Texture streaming: Enabled
+[2019.06.12-03.35.52:615][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.12-03.35.52:635][  0]LogInit: Transaction tracking system initialized
+[2019.06.12-03.35.52:660][  0]BlueprintLog: New page: Editor Load
+[2019.06.12-03.35.52:749][  0]LocalizationService: Localization service is disabled
+[2019.06.12-03.35.53:267][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.12-03.35.53:267][  0]LogCook: Display: Mobile HDR setting 1
+[2019.06.12-03.35.53:267][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.06.12-03.35.53:267][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.06.12-03.35.53:267][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.12-03.35.53:267][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.06.12-03.35.53:267][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.12-03.35.53:382][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngineProject/MountainAndSea/Content/' took 0.02s
+[2019.06.12-03.35.53:382][  0]SourceControl: Source control is disabled
+[2019.06.12-03.35.53:382][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealEngineProject/MountainAndSea/Content/Maps/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.12-03.35.53:382][  0]LightingResults: New page: Lighting Build
+[2019.06.12-03.35.53:384][  0]MapCheck: New page: Map Check
+[2019.06.12-03.35.53:384][  0]LightingResults: New page: Lighting Build
+[2019.06.12-03.35.53:591][  0]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-03.35.53:596][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.12-03.35.53:638][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.12-03.35.53:638][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.107ms to complete.
+[2019.06.12-03.35.53:638][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.256
+[2019.06.12-03.35.53:752][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.35.53:765][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.35.53:776][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.35.53:788][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.35.53:791][  0]LogCollectionManager: Loaded 0 collections in 0.000839 seconds
+[2019.06.12-03.35.53:806][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngineProject/MountainAndSea/Saved/Collections/' took 0.01s
+[2019.06.12-03.35.53:806][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngineProject/MountainAndSea/Content/Developers/yifan/Collections/' took 0.00s
+[2019.06.12-03.35.53:806][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngineProject/MountainAndSea/Content/Collections/' took 0.00s
+[2019.06.12-03.35.53:806][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.06.12-03.35.53:816][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2660 classes and 628 folders.
+[2019.06.12-03.35.53:821][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.06.12-03.35.53:822][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:823][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:823][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:824][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:824][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:824][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:825][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:825][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:825][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:826][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:826][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:826][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:827][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:827][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:827][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:828][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:828][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:828][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:829][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:829][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:830][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:830][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:830][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:831][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:831][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:831][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.35.53:856][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.06.12-03.35.53:860][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.06.12-03.35.53:922][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.12-03.35.53:924][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.12-03.35.53:929][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.12-03.35.54:002][  0]LogRenderer: Reallocating scene render targets to support 1172x668 Format 10 NumSamples 1 (Frame:1).
+[2019.06.12-03.35.54:107][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.06.12-03.35.54:107][  0]LogLoad: (Engine Initialization) Total time: 9.52 seconds
+[2019.06.12-03.35.54:107][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.12-03.35.54:118][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2019.06.12-03.35.54:173][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.06.12-03.35.54:215][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.12-03.35.54:314][  2]LogAssetRegistry: Asset discovery search completed in 5.2267 seconds
+[2019.06.12-03.35.54:316][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.06.12-03.35.54:316][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2019.06.12-03.36.01:635][876]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.36.04:966][274]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.36.04:966][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-03.36.04:967][274]PIE: New page: SIE session: DefaultMap (Jun 12, 2019, 7:36:04 PM)
+[2019.06.12-03.36.04:979][274]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DefaultMap
+[2019.06.12-03.36.04:982][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002820s)
+[2019.06.12-03.36.04:982][274]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-03.36.04:983][274]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2019.06.12-03.36.04:983][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DefaultMap.DefaultMap to /Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.003936s)
+[2019.06.12-03.36.05:028][274]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.12-03.36.05:037][274]LogInit: FAudioDevice initialized.
+[2019.06.12-03.36.05:037][274]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.36.05:081][274]LogLoad: Game class is 'MountainAndSeaGameMode'
+[2019.06.12-03.36.05:083][274]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-11.36.05
+[2019.06.12-03.36.05:083][274]LogWorld: Bringing up level for play took: 0.000668
+[2019.06.12-03.36.05:101][274]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2019.06.12-03.36.05:101][274]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.36.05:101][274]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2019.06.12-03.36.05:101][274]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.36.05:101][274]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.06.12-03.36.05:101][274]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.06.12-03.36.05:102][274]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.06.12-03.36.05:104][274]LogInit: WinSock: I am DESKTOP-82VF2NQ (192.168.199.149:0)
+[2019.06.12-03.36.05:105][274]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.36.05:105][274]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2019.06.12-03.36.05:105][274]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DefaultMap -0.43
+[2019.06.12-03.36.05:170][274]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.36.07:233][495]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2019.06.12-03.36.07:234][495]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2019.06.12-03.36.07:234][495]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2019.06.12-03.36.07:234][495]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.36.07:234][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.36.07:268][495]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.12-03.36.07:268][495]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.36.07:308][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.36.07:337][497]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.06.12-03.36.27:517][542]LogTemp: Repeating last play command: Standalone Game
+[2019.06.12-03.36.48:491][175]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.06.12-03.36.48:627][175]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.37.02:941][353]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.37.04:496][535]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.37.04:496][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-03.37.04:496][535]PIE: New page: PIE session: DefaultMap (Jun 12, 2019, 7:37:04 PM)
+[2019.06.12-03.37.04:497][535]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_DefaultMap
+[2019.06.12-03.37.04:499][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002268s)
+[2019.06.12-03.37.04:499][535]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-03.37.04:500][535]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2019.06.12-03.37.04:500][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DefaultMap.DefaultMap to /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap (0.003076s)
+[2019.06.12-03.37.04:541][535]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.12-03.37.04:551][535]LogInit: FAudioDevice initialized.
+[2019.06.12-03.37.04:551][535]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.37.04:586][535]LogLoad: Game class is 'MountainAndSeaGameMode'
+[2019.06.12-03.37.04:587][535]LogWorld: Bringing World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-11.37.04
+[2019.06.12-03.37.04:587][535]LogWorld: Bringing up level for play took: 0.000609
+[2019.06.12-03.37.04:602][535]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.37.04:602][535]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2019.06.12-03.37.04:602][535]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.37.04:602][535]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.06.12-03.37.04:602][535]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.06.12-03.37.04:602][535]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.06.12-03.37.04:603][535]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.37.04:603][535]LogNet: GameNetDriver IpNetDriver_1 IpNetDriver listening on port 17777
+[2019.06.12-03.37.04:603][535]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_DefaultMap 1.068
+[2019.06.12-03.37.04:606][535]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.37.04:610][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.37.04:642][535]LogNet: Browse: 127.0.0.1:17777//Game/Maps/DefaultMap
+[2019.06.12-03.37.04:642][535]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.37.04:642][535]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2019.06.12-03.37.04:642][535]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.06.12-03.37.04:642][535]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.06.12-03.37.04:643][535]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.37.04:643][535]LogNet: Game client on port 17777, rate 10000
+[2019.06.12-03.37.04:646][535]PIE: Play in editor start time for /Game/Maps/DefaultMap 1.111
+[2019.06.12-03.37.04:649][535]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.37.04:649][535]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62112
+[2019.06.12-03.37.04:650][535]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 106125131066039232044011223043129238076044069184069077104052
+[2019.06.12-03.37.04:652][535]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 106125131066039232044011223043129238076044069184069077104052
+[2019.06.12-03.37.04:712][536]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62112
+[2019.06.12-03.37.04:713][536]LogHandshake: SendChallengeAck. InCookie: 106125131066039232044011223043129238076044069184069077104052
+[2019.06.12-03.37.04:713][536]LogNet: Server accepting post-challenge connection from: 127.0.0.1:62112
+[2019.06.12-03.37.04:713][536]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.37.04:713][536]LogNet: NotifyAcceptedConnection: Name: DefaultMap, TimeStamp: 06/12/19 11:37:04, [UNetConnection] RemoteAddr: 127.0.0.1:62112, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_1, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-03.37.04:714][536]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:62112, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_1, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-03.37.04:715][536]LogNetVersion: MountainAndSea 1.0.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1277640229)
+[2019.06.12-03.37.04:715][536]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-03.37.04:722][537]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap: Accepted
+[2019.06.12-03.37.04:722][537]LogNet: Remote platform little endian=1
+[2019.06.12-03.37.04:722][537]LogNet: This platform little endian=1
+[2019.06.12-03.37.04:740][538]LogNet: Login request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-42DD42C54F551F227B045EA5016A8259 userId: NULL:DESKTOP-82VF2NQ-42DD42C54F551F227B045EA5016A8259 platform: NULL
+[2019.06.12-03.37.04:741][538]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_DefaultMap, Game: /Script/MountainAndSea.MountainAndSeaGameMode)
+[2019.06.12-03.37.04:741][538]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_DefaultMap?game=/Script/MountainAndSea.MountainAndSeaGameMode
+[2019.06.12-03.37.04:787][538]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-03.37.04:787][538]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.37.04:788][538]LogWorld: Bringing World /Game/Maps/UEDPIE_2_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-11.37.04
+[2019.06.12-03.37.04:788][538]LogWorld: Bringing up level for play took: 0.000447
+[2019.06.12-03.37.04:788][538]LogLoad: Took 0.047355 seconds to LoadMap(/Game/Maps/UEDPIE_1_DefaultMap)
+[2019.06.12-03.37.04:799][539]LogNet: Client netspeed is 10000
+[2019.06.12-03.37.04:799][539]LogNet: Join request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-42DD42C54F551F227B045EA5016A8259?SplitscreenCount=1
+[2019.06.12-03.37.04:799][539]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.06.12-03.37.04:799][539]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-03.37.04:802][539]LogNet: Join succeeded: DESKTOP-82VF2NQ-42DD
+[2019.06.12-03.37.04:839][542]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-03.37.04:855][544]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-03.37.05:855][663]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2019.06.12-03.37.05:855][663]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2019.06.12-03.37.05:855][663]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:62112, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_1, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-42DD42C54F551F227B045EA5016A8259
+[2019.06.12-03.37.05:855][663]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:62112, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_1, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-42DD42C54F551F227B045EA5016A8259, Channels: 10, Time: 2019.06.12-03.37.05
+[2019.06.12-03.37.05:855][663]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62112, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_1, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-42DD42C54F551F227B045EA5016A8259
+[2019.06.12-03.37.05:855][663]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2019.06.12-03.37.05:855][663]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.37.05:855][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.37.05:878][663]LogSlate: Window 'MountainAndSea Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.12-03.37.05:909][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.37.05:944][663]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.12-03.37.05:944][663]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.37.05:985][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.37.05:985][663]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-42DD42C54F551F227B045EA5016A8259
+[2019.06.12-03.37.05:985][663]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-42DD42C54F551F227B045EA5016A8259, Channels: 9, Time: 2019.06.12-03.37.05
+[2019.06.12-03.37.05:985][663]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-42DD42C54F551F227B045EA5016A8259
+[2019.06.12-03.37.05:987][663]LogExit: GameNetDriver None shut down
+[2019.06.12-03.37.05:999][664]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.06.12-03.37.05:999][664]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.06.12-03.37.06:743][752]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.37.09:959][138]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-03.37.09:977][138]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.37.09:977][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-03.37.09:977][138]PIE: New page: PIE session: DefaultMap (Jun 12, 2019, 7:37:09 PM)
+[2019.06.12-03.37.09:977][138]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_DefaultMap
+[2019.06.12-03.37.09:980][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002159s)
+[2019.06.12-03.37.09:980][138]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-03.37.09:980][138]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2019.06.12-03.37.09:980][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DefaultMap.DefaultMap to /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap (0.002849s)
+[2019.06.12-03.37.10:019][138]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.12-03.37.10:027][138]LogInit: FAudioDevice initialized.
+[2019.06.12-03.37.10:058][138]LogLoad: Game class is 'MountainAndSeaGameMode'
+[2019.06.12-03.37.10:059][138]LogWorld: Bringing World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-11.37.10
+[2019.06.12-03.37.10:059][138]LogWorld: Bringing up level for play took: 0.000848
+[2019.06.12-03.37.10:073][138]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.37.10:073][138]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2019.06.12-03.37.10:073][138]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.37.10:073][138]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.06.12-03.37.10:073][138]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.06.12-03.37.10:073][138]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.06.12-03.37.10:073][138]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.37.10:073][138]LogNet: GameNetDriver IpNetDriver_3 IpNetDriver listening on port 17777
+[2019.06.12-03.37.10:074][138]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_DefaultMap 0.539
+[2019.06.12-03.37.10:077][138]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.37.10:083][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.37.10:121][138]LogNet: Browse: 127.0.0.1:17777//Game/Maps/DefaultMap
+[2019.06.12-03.37.10:121][138]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.37.10:121][138]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2019.06.12-03.37.10:121][138]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.06.12-03.37.10:121][138]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.06.12-03.37.10:122][138]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.37.10:122][138]LogNet: Game client on port 17777, rate 10000
+[2019.06.12-03.37.10:127][138]PIE: Play in editor start time for /Game/Maps/DefaultMap 0.591
+[2019.06.12-03.37.10:132][138]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.37.10:133][138]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62113
+[2019.06.12-03.37.10:133][138]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 203140152169018073198052022008186056217124076050202164215117
+[2019.06.12-03.37.10:134][138]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 203140152169018073198052022008186056217124076050202164215117
+[2019.06.12-03.37.10:197][139]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62113
+[2019.06.12-03.37.10:197][139]LogHandshake: SendChallengeAck. InCookie: 203140152169018073198052022008186056217124076050202164215117
+[2019.06.12-03.37.10:197][139]LogNet: Server accepting post-challenge connection from: 127.0.0.1:62113
+[2019.06.12-03.37.10:198][139]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.37.10:198][139]LogNet: NotifyAcceptedConnection: Name: DefaultMap, TimeStamp: 06/12/19 11:37:10, [UNetConnection] RemoteAddr: 127.0.0.1:62113, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-03.37.10:198][139]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:62113, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-03.37.10:199][139]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_4, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-03.37.10:207][140]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap: Accepted
+[2019.06.12-03.37.10:207][140]LogNet: Remote platform little endian=1
+[2019.06.12-03.37.10:207][140]LogNet: This platform little endian=1
+[2019.06.12-03.37.10:226][141]LogNet: Login request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-5A6C905F41C222486183E098B398C68E userId: NULL:DESKTOP-82VF2NQ-5A6C905F41C222486183E098B398C68E platform: NULL
+[2019.06.12-03.37.10:227][141]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_DefaultMap, Game: /Script/MountainAndSea.MountainAndSeaGameMode)
+[2019.06.12-03.37.10:227][141]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_DefaultMap?game=/Script/MountainAndSea.MountainAndSeaGameMode
+[2019.06.12-03.37.10:273][141]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-03.37.10:273][141]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.37.10:274][141]LogWorld: Bringing World /Game/Maps/UEDPIE_2_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-11.37.10
+[2019.06.12-03.37.10:274][141]LogWorld: Bringing up level for play took: 0.000661
+[2019.06.12-03.37.10:274][141]LogLoad: Took 0.047039 seconds to LoadMap(/Game/Maps/UEDPIE_1_DefaultMap)
+[2019.06.12-03.37.10:286][142]LogNet: Client netspeed is 10000
+[2019.06.12-03.37.10:286][142]LogNet: Join request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-5A6C905F41C222486183E098B398C68E?SplitscreenCount=1
+[2019.06.12-03.37.10:287][142]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-03.37.10:289][142]LogNet: Join succeeded: DESKTOP-82VF2NQ-5A6C
+[2019.06.12-03.37.10:322][146]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-03.37.10:347][149]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-03.37.13:424][510]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.38.02:356][960]LogNet: World NetDriver shutdown IpNetDriver_3 [GameNetDriver]
+[2019.06.12-03.38.02:356][960]LogNet: DestroyNamedNetDriver IpNetDriver_3 [GameNetDriver]
+[2019.06.12-03.38.02:356][960]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:62113, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-5A6C905F41C222486183E098B398C68E
+[2019.06.12-03.38.02:356][960]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:62113, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-5A6C905F41C222486183E098B398C68E, Channels: 11, Time: 2019.06.12-03.38.02
+[2019.06.12-03.38.02:356][960]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62113, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-5A6C905F41C222486183E098B398C68E
+[2019.06.12-03.38.02:357][960]LogExit: GameNetDriver IpNetDriver_3 shut down
+[2019.06.12-03.38.02:357][960]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.38.02:357][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.38.02:377][960]LogSlate: Window 'MountainAndSea Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.12-03.38.02:409][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.38.02:442][960]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.12-03.38.02:443][960]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.38.02:476][960]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_4, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-82VF2NQ-5A6C905F41C222486183E098B398C68E
+[2019.06.12-03.38.02:476][960]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_4, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-82VF2NQ-5A6C905F41C222486183E098B398C68E, Channels: 3, Time: 2019.06.12-03.38.02
+[2019.06.12-03.38.02:476][960]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_4, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-82VF2NQ-5A6C905F41C222486183E098B398C68E
+[2019.06.12-03.38.02:478][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.38.02:479][960]LogExit: GameNetDriver None shut down
+[2019.06.12-03.38.02:694][961]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.06.12-03.38.02:694][961]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.06.12-03.46.41:035][963]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.12-03.46.50:071][ 38]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/DefaultMap' took 0.047
+[2019.06.12-04.19.30:610][287]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-04.19.30:628][287]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-04.19.30:629][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-04.19.30:629][287]PIE: New page: PIE session: DefaultMap (Jun 12, 2019, 8:19:30 PM)
+[2019.06.12-04.19.30:629][287]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_DefaultMap
+[2019.06.12-04.19.30:631][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002318s)
+[2019.06.12-04.19.30:632][287]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-04.19.30:632][287]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2019.06.12-04.19.30:632][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DefaultMap.DefaultMap to /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap (0.003184s)
+[2019.06.12-04.19.30:672][287]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.12-04.19.30:681][287]LogInit: FAudioDevice initialized.
+[2019.06.12-04.19.30:714][287]LogLoad: Game class is 'MountainAndSeaGameMode'
+[2019.06.12-04.19.30:715][287]LogWorld: Bringing World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-12.19.30
+[2019.06.12-04.19.30:715][287]LogWorld: Bringing up level for play took: 0.000516
+[2019.06.12-04.19.30:731][287]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-04.19.30:731][287]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2019.06.12-04.19.30:731][287]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-04.19.30:731][287]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.06.12-04.19.30:731][287]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.06.12-04.19.30:731][287]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.06.12-04.19.30:732][287]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-04.19.30:732][287]LogNet: GameNetDriver IpNetDriver_5 IpNetDriver listening on port 17777
+[2019.06.12-04.19.30:733][287]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_DefaultMap -0.802
+[2019.06.12-04.19.30:737][287]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-04.19.30:744][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-04.19.30:779][287]LogNet: Browse: 127.0.0.1:17777//Game/Maps/DefaultMap
+[2019.06.12-04.19.30:779][287]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-04.19.30:779][287]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2019.06.12-04.19.30:779][287]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.06.12-04.19.30:779][287]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.06.12-04.19.30:780][287]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-04.19.30:780][287]LogNet: Game client on port 17777, rate 10000
+[2019.06.12-04.19.30:784][287]PIE: Play in editor start time for /Game/Maps/DefaultMap -0.751
+[2019.06.12-04.19.30:790][287]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-04.19.30:790][287]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55602
+[2019.06.12-04.19.30:790][287]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 202030115179078252026012096100159050190058102230071055045094
+[2019.06.12-04.19.30:792][287]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 202030115179078252026012096100159050190058102230071055045094
+[2019.06.12-04.19.30:863][288]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55602
+[2019.06.12-04.19.30:863][288]LogHandshake: SendChallengeAck. InCookie: 202030115179078252026012096100159050190058102230071055045094
+[2019.06.12-04.19.30:863][288]LogNet: Server accepting post-challenge connection from: 127.0.0.1:55602
+[2019.06.12-04.19.30:864][288]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-04.19.30:864][288]LogNet: NotifyAcceptedConnection: Name: DefaultMap, TimeStamp: 06/12/19 12:19:30, [UNetConnection] RemoteAddr: 127.0.0.1:55602, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_5, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-04.19.30:864][288]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:55602, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_5, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-04.19.30:865][288]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_6, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-04.19.30:874][289]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap: Accepted
+[2019.06.12-04.19.30:874][289]LogNet: Remote platform little endian=1
+[2019.06.12-04.19.30:874][289]LogNet: This platform little endian=1
+[2019.06.12-04.19.30:894][290]LogNet: Login request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-72CA38E04EAC8F5F0E6C818AE1D85B8E userId: NULL:DESKTOP-82VF2NQ-72CA38E04EAC8F5F0E6C818AE1D85B8E platform: NULL
+[2019.06.12-04.19.30:895][290]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_DefaultMap, Game: /Script/MountainAndSea.MountainAndSeaGameMode)
+[2019.06.12-04.19.30:895][290]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_DefaultMap?game=/Script/MountainAndSea.MountainAndSeaGameMode
+[2019.06.12-04.19.30:939][290]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-04.19.30:939][290]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-04.19.30:940][290]LogWorld: Bringing World /Game/Maps/UEDPIE_2_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-12.19.30
+[2019.06.12-04.19.30:940][290]LogWorld: Bringing up level for play took: 0.000376
+[2019.06.12-04.19.30:940][290]LogLoad: Took 0.044760 seconds to LoadMap(/Game/Maps/UEDPIE_1_DefaultMap)
+[2019.06.12-04.19.30:950][291]LogNet: Client netspeed is 10000
+[2019.06.12-04.19.30:950][291]LogNet: Join request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-72CA38E04EAC8F5F0E6C818AE1D85B8E?SplitscreenCount=1
+[2019.06.12-04.19.30:951][291]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-04.19.30:952][291]LogNet: Join succeeded: DESKTOP-82VF2NQ-72CA
+[2019.06.12-04.19.31:024][295]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-04.19.31:044][296]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-04.19.33:973][634]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-04.19.44:372][835]LogNet: World NetDriver shutdown IpNetDriver_5 [GameNetDriver]
+[2019.06.12-04.19.44:372][835]LogNet: DestroyNamedNetDriver IpNetDriver_5 [GameNetDriver]
+[2019.06.12-04.19.44:372][835]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:55602, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_5, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-72CA38E04EAC8F5F0E6C818AE1D85B8E
+[2019.06.12-04.19.44:372][835]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:55602, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_5, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-72CA38E04EAC8F5F0E6C818AE1D85B8E, Channels: 11, Time: 2019.06.12-04.19.44
+[2019.06.12-04.19.44:372][835]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55602, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_5, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-72CA38E04EAC8F5F0E6C818AE1D85B8E
+[2019.06.12-04.19.44:372][835]LogExit: GameNetDriver IpNetDriver_5 shut down
+[2019.06.12-04.19.44:372][835]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-04.19.44:372][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-04.19.44:394][835]LogSlate: Window 'MountainAndSea Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.12-04.19.44:429][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-04.19.44:463][835]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.12-04.19.44:463][835]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-04.19.44:504][835]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_6, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-82VF2NQ-72CA38E04EAC8F5F0E6C818AE1D85B8E
+[2019.06.12-04.19.44:504][835]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_6, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-82VF2NQ-72CA38E04EAC8F5F0E6C818AE1D85B8E, Channels: 3, Time: 2019.06.12-04.19.44
+[2019.06.12-04.19.44:504][835]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_6, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-82VF2NQ-72CA38E04EAC8F5F0E6C818AE1D85B8E
+[2019.06.12-04.19.44:506][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-04.19.44:507][835]LogExit: GameNetDriver None shut down
+[2019.06.12-04.19.44:525][836]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.06.12-04.19.44:525][836]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.06.12-04.27.59:216][ 27]LogHotReload: New module detected: UE4Editor-MountainAndSea-8051.dll
+[2019.06.12-04.28.00:584][ 32]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.12-04.28.00:676][ 32]LogClass: ECharAnimStatType HotReload.
+[2019.06.12-04.28.00:676][ 32]LogClass: EBuff HotReload.
+[2019.06.12-04.28.00:676][ 32]LogClass: EControlStat HotReload.
+[2019.06.12-04.28.00:676][ 32]LogClass: ECharBaseStat HotReload.
+[2019.06.12-04.28.00:676][ 32]LogClass: WorldBaseElement HotReload.
+[2019.06.12-04.28.00:676][ 32]LogClass: ESkillPhaseEnum HotReload.
+[2019.06.12-04.28.00:676][ 32]LogClass: ESkillType HotReload.
+[2019.06.12-04.28.00:676][ 32]LogClass: CharacterBaseInfo HotReload.
+[2019.06.12-04.28.00:676][ 32]LogClass: BaseElements HotReload.
+[2019.06.12-04.28.00:676][ 32]LogClass: StringLang HotReload.
+[2019.06.12-04.28.00:676][ 32]LogClass: SkillInstanceData HotReload.
+[2019.06.12-04.28.00:676][ 32]LogClass: SkillDataBase HotReload.
+[2019.06.12-04.28.00:676][ 32]LogClass: SkillPhaseStruct HotReload.
+[2019.06.12-04.28.00:687][ 32]LogContentBrowser: Native class hierarchy updated for 'MountainAndSea' in 0.0005 seconds. Added 9 classes and 8 folders.
+[2019.06.12-04.28.00:689][ 32]Display: HotReload successful (20 functions remapped  6 scriptstructs remapped)
+[2019.06.12-04.28.00:923][ 32]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2661 classes and 630 folders.
+[2019.06.12-04.28.00:925][ 32]Display: HotReload took  0.3s.
+[2019.06.12-04.29.10:534][240]LogHotReload: New module detected: UE4Editor-MountainAndSea-3497.dll
+[2019.06.12-04.29.11:903][245]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.12-04.29.11:964][245]LogClass: Could not find existing class BaseRoleCharacter in package /Script/MountainAndSea for HotReload, assuming new class
+[2019.06.12-04.29.11:964][245]LogClass: Could not find existing class MainCharacter in package /Script/MountainAndSea for HotReload, assuming new class
+[2019.06.12-04.29.11:964][245]LogClass: Function ConsumeHp is new.
+[2019.06.12-04.29.11:964][245]LogClass: Function ConsumeMp is new.
+[2019.06.12-04.29.11:964][245]LogClass: Function GetRoleAttrBase is new.
+[2019.06.12-04.29.11:964][245]LogClass: Function GetRoleBaseInfo is new.
+[2019.06.12-04.29.11:964][245]LogClass: Function GetRoleSkillComponent is new.
+[2019.06.12-04.29.11:964][245]LogClass: Function OnSkillEnd is new.
+[2019.06.12-04.29.11:964][245]LogClass: Function RPC_Muitcast_ChangeRoleState is new.
+[2019.06.12-04.29.11:964][245]LogClass: Function RPC_Server_Skill is new.
+[2019.06.12-04.29.11:970][245]LogClass: ECharAnimStatType HotReload.
+[2019.06.12-04.29.11:970][245]LogClass: EBuff HotReload.
+[2019.06.12-04.29.11:970][245]LogClass: EControlStat HotReload.
+[2019.06.12-04.29.11:970][245]LogClass: ECharBaseStat HotReload.
+[2019.06.12-04.29.11:970][245]LogClass: WorldBaseElement HotReload.
+[2019.06.12-04.29.11:970][245]LogClass: ESkillPhaseEnum HotReload.
+[2019.06.12-04.29.11:970][245]LogClass: ESkillType HotReload.
+[2019.06.12-04.29.11:970][245]LogClass: CharacterBaseInfo HotReload.
+[2019.06.12-04.29.11:970][245]LogClass: BaseElements HotReload.
+[2019.06.12-04.29.11:970][245]LogClass: StringLang HotReload.
+[2019.06.12-04.29.11:970][245]LogClass: SkillInstanceData HotReload.
+[2019.06.12-04.29.11:970][245]LogClass: SkillDataBase HotReload.
+[2019.06.12-04.29.11:970][245]LogClass: SkillPhaseStruct HotReload.
+[2019.06.12-04.29.11:976][245]LogHotReload: Re-instancing BaseRoleCharacter after hot-reload.
+[2019.06.12-04.29.12:095][245]LogHotReload: Re-instancing MainCharacter after hot-reload.
+[2019.06.12-04.29.12:220][245]LogContentBrowser: Native class hierarchy updated for 'MountainAndSea' in 0.0005 seconds. Added 9 classes and 8 folders.
+[2019.06.12-04.29.12:224][245]Display: HotReload successful (13 functions remapped  6 scriptstructs remapped)
+[2019.06.12-04.29.12:299][245]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2661 classes and 630 folders.
+[2019.06.12-04.29.12:301][245]Display: HotReload took  0.4s.
+[2019.06.12-04.29.40:072][328]LogHotReload: New module detected: UE4Editor-MountainAndSea-2923.dll
+[2019.06.12-04.29.41:449][333]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.12-04.29.41:514][333]LogClass: Could not find existing class BaseRoleCharacter in package /Script/MountainAndSea for HotReload, assuming new class
+[2019.06.12-04.29.41:515][333]LogClass: Could not find existing class MainCharacter in package /Script/MountainAndSea for HotReload, assuming new class
+[2019.06.12-04.29.41:515][333]LogClass: Function ConsumeHp is new.
+[2019.06.12-04.29.41:515][333]LogClass: Function ConsumeMp is new.
+[2019.06.12-04.29.41:515][333]LogClass: Function GetRoleAttrBase is new.
+[2019.06.12-04.29.41:515][333]LogClass: Function GetRoleBaseInfo is new.
+[2019.06.12-04.29.41:515][333]LogClass: Function GetRoleSkillComponent is new.
+[2019.06.12-04.29.41:515][333]LogClass: Function OnSkillEnd is new.
+[2019.06.12-04.29.41:515][333]LogClass: Function RPC_Muitcast_ChangeRoleState is new.
+[2019.06.12-04.29.41:515][333]LogClass: Function RPC_Server_Skill is new.
+[2019.06.12-04.29.41:523][333]LogClass: ECharAnimStatType HotReload.
+[2019.06.12-04.29.41:523][333]LogClass: EBuff HotReload.
+[2019.06.12-04.29.41:523][333]LogClass: EControlStat HotReload.
+[2019.06.12-04.29.41:523][333]LogClass: ECharBaseStat HotReload.
+[2019.06.12-04.29.41:523][333]LogClass: WorldBaseElement HotReload.
+[2019.06.12-04.29.41:523][333]LogClass: ESkillPhaseEnum HotReload.
+[2019.06.12-04.29.41:523][333]LogClass: ESkillType HotReload.
+[2019.06.12-04.29.41:523][333]LogClass: CharacterBaseInfo HotReload.
+[2019.06.12-04.29.41:523][333]LogClass: BaseElements HotReload.
+[2019.06.12-04.29.41:523][333]LogClass: StringLang HotReload.
+[2019.06.12-04.29.41:523][333]LogClass: SkillInstanceData HotReload.
+[2019.06.12-04.29.41:524][333]LogClass: SkillDataBase HotReload.
+[2019.06.12-04.29.41:524][333]LogClass: SkillPhaseStruct HotReload.
+[2019.06.12-04.29.41:530][333]LogHotReload: Re-instancing BaseRoleCharacter after hot-reload.
+[2019.06.12-04.29.41:614][333]LogHotReload: Re-instancing MainCharacter after hot-reload.
+[2019.06.12-04.29.41:755][333]LogContentBrowser: Native class hierarchy updated for 'MountainAndSea' in 0.0008 seconds. Added 9 classes and 8 folders.
+[2019.06.12-04.29.41:758][333]Display: HotReload successful (13 functions remapped  6 scriptstructs remapped)
+[2019.06.12-04.29.41:845][333]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2661 classes and 630 folders.
+[2019.06.12-04.29.41:846][333]Display: HotReload took  0.4s.
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:124][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:125][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:126][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:127][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.38:128][540]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.43.54:056][588]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (15.932 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.12-07.58.22:232][180]LogHotReload: New module detected: UE4Editor-MountainAndSea-374.dll
+[2019.06.12-07.58.23:603][185]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.12-07.58.23:686][185]LogClass: ECharAnimStatType HotReload.
+[2019.06.12-07.58.23:687][185]LogClass: EBuff HotReload.
+[2019.06.12-07.58.23:687][185]LogClass: EControlStat HotReload.
+[2019.06.12-07.58.23:687][185]LogClass: ECharBaseStat HotReload.
+[2019.06.12-07.58.23:687][185]LogClass: WorldBaseElement HotReload.
+[2019.06.12-07.58.23:687][185]LogClass: ESkillPhaseEnum HotReload.
+[2019.06.12-07.58.23:687][185]LogClass: ESkillType HotReload.
+[2019.06.12-07.58.23:687][185]LogClass: CharacterBaseInfo HotReload.
+[2019.06.12-07.58.23:687][185]LogClass: BaseElements HotReload.
+[2019.06.12-07.58.23:687][185]LogClass: StringLang HotReload.
+[2019.06.12-07.58.23:687][185]LogClass: SkillInstanceData HotReload.
+[2019.06.12-07.58.23:687][185]LogClass: SkillDataBase HotReload.
+[2019.06.12-07.58.23:687][185]LogClass: SkillPhaseStruct HotReload.
+[2019.06.12-07.58.23:699][185]LogContentBrowser: Native class hierarchy updated for 'MountainAndSea' in 0.0008 seconds. Added 9 classes and 8 folders.
+[2019.06.12-07.58.23:702][185]Display: HotReload successful (21 functions remapped  6 scriptstructs remapped)
+[2019.06.12-07.58.23:771][185]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2661 classes and 630 folders.
+[2019.06.12-07.58.23:773][185]Display: HotReload took  0.2s.
+[2019.06.12-08.09.45:418][461]LogHotReload: New module detected: UE4Editor-MountainAndSea-4613.dll
+[2019.06.12-08.09.46:789][466]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.12-08.09.46:861][466]LogClass: ECharAnimStatType HotReload.
+[2019.06.12-08.09.46:861][466]LogClass: EBuff HotReload.
+[2019.06.12-08.09.46:861][466]LogClass: EControlStat HotReload.
+[2019.06.12-08.09.46:861][466]LogClass: ECharBaseStat HotReload.
+[2019.06.12-08.09.46:861][466]LogClass: WorldBaseElement HotReload.
+[2019.06.12-08.09.46:861][466]LogClass: ESkillPhaseEnum HotReload.
+[2019.06.12-08.09.46:861][466]LogClass: ESkillType HotReload.
+[2019.06.12-08.09.46:861][466]LogClass: CharacterBaseInfo HotReload.
+[2019.06.12-08.09.46:861][466]LogClass: BaseElements HotReload.
+[2019.06.12-08.09.46:861][466]LogClass: StringLang HotReload.
+[2019.06.12-08.09.46:861][466]LogClass: SkillInstanceData HotReload.
+[2019.06.12-08.09.46:861][466]LogClass: SkillDataBase HotReload.
+[2019.06.12-08.09.46:861][466]LogClass: SkillPhaseStruct HotReload.
+[2019.06.12-08.09.46:872][466]LogContentBrowser: Native class hierarchy updated for 'MountainAndSea' in 0.0005 seconds. Added 9 classes and 8 folders.
+[2019.06.12-08.09.46:876][466]Display: HotReload successful (21 functions remapped  6 scriptstructs remapped)
+[2019.06.12-08.09.46:945][466]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2661 classes and 630 folders.
+[2019.06.12-08.09.46:947][466]Display: HotReload took  0.2s.
+[2019.06.12-08.12.45:861][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-08.12.45:936][143]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-08.12.45:957][143]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-08.12.45:957][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-08.12.45:957][143]PIE: New page: PIE session: DefaultMap (Jun 13, 2019, 12:12:45 AM)
+[2019.06.12-08.12.45:958][143]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_DefaultMap
+[2019.06.12-08.12.45:961][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002851s)
+[2019.06.12-08.12.45:962][143]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-08.12.45:962][143]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2019.06.12-08.12.45:962][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DefaultMap.DefaultMap to /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap (0.004250s)
+[2019.06.12-08.12.46:002][143]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.12-08.12.46:011][143]LogInit: FAudioDevice initialized.
+[2019.06.12-08.12.46:048][143]LogLoad: Game class is 'MountainAndSeaGameMode'
+[2019.06.12-08.12.46:050][143]LogWorld: Bringing World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-16.12.46
+[2019.06.12-08.12.46:050][143]LogWorld: Bringing up level for play took: 0.001463
+[2019.06.12-08.12.46:068][143]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-08.12.46:068][143]LogTemp: Display: ParseSettings for IpNetDriver_7
+[2019.06.12-08.12.46:068][143]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-08.12.46:068][143]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.06.12-08.12.46:068][143]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.06.12-08.12.46:068][143]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.06.12-08.12.46:069][143]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-08.12.46:069][143]LogNet: GameNetDriver IpNetDriver_7 IpNetDriver listening on port 17777
+[2019.06.12-08.12.46:070][143]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_DefaultMap 0.711
+[2019.06.12-08.12.46:074][143]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-08.12.46:080][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-08.12.46:117][143]LogNet: Browse: 127.0.0.1:17777//Game/Maps/DefaultMap
+[2019.06.12-08.12.46:117][143]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-08.12.46:117][143]LogTemp: Display: ParseSettings for IpNetDriver_8
+[2019.06.12-08.12.46:117][143]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.06.12-08.12.46:117][143]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.06.12-08.12.46:118][143]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-08.12.46:118][143]LogNet: Game client on port 17777, rate 10000
+[2019.06.12-08.12.46:122][143]PIE: Play in editor start time for /Game/Maps/DefaultMap 0.763
+[2019.06.12-08.12.46:127][143]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-08.12.46:127][143]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61228
+[2019.06.12-08.12.46:127][143]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 004236203024245046219206252043074064043200209061079164162014
+[2019.06.12-08.12.46:129][143]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 004236203024245046219206252043074064043200209061079164162014
+[2019.06.12-08.12.46:216][144]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61228
+[2019.06.12-08.12.46:216][144]LogHandshake: SendChallengeAck. InCookie: 004236203024245046219206252043074064043200209061079164162014
+[2019.06.12-08.12.46:216][144]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61228
+[2019.06.12-08.12.46:216][144]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-08.12.46:217][144]LogNet: NotifyAcceptedConnection: Name: DefaultMap, TimeStamp: 06/12/19 16:12:46, [UNetConnection] RemoteAddr: 127.0.0.1:61228, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_7, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-08.12.46:217][144]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61228, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_7, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-08.12.46:218][144]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_8, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-08.12.46:226][145]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap: Accepted
+[2019.06.12-08.12.46:226][145]LogNet: Remote platform little endian=1
+[2019.06.12-08.12.46:226][145]LogNet: This platform little endian=1
+[2019.06.12-08.12.46:245][146]LogNet: Login request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-2F0A64204DE276A5495EDB83A7BBD8A4 userId: NULL:DESKTOP-82VF2NQ-2F0A64204DE276A5495EDB83A7BBD8A4 platform: NULL
+[2019.06.12-08.12.46:246][146]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_DefaultMap, Game: /Script/MountainAndSea.MountainAndSeaGameMode)
+[2019.06.12-08.12.46:246][146]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_DefaultMap?game=/Script/MountainAndSea.MountainAndSeaGameMode
+[2019.06.12-08.12.46:293][146]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-08.12.46:294][146]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-08.12.46:294][146]LogWorld: Bringing World /Game/Maps/UEDPIE_2_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-16.12.46
+[2019.06.12-08.12.46:294][146]LogWorld: Bringing up level for play took: 0.000363
+[2019.06.12-08.12.46:295][146]LogLoad: Took 0.048431 seconds to LoadMap(/Game/Maps/UEDPIE_1_DefaultMap)
+[2019.06.12-08.12.46:305][147]LogNet: Client netspeed is 10000
+[2019.06.12-08.12.46:305][147]LogNet: Join request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-2F0A64204DE276A5495EDB83A7BBD8A4?SplitscreenCount=1
+[2019.06.12-08.12.46:305][147]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-08.12.46:307][147]LogNet: Join succeeded: DESKTOP-82VF2NQ-2F0A
+[2019.06.12-08.12.46:342][151]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-08.12.46:367][154]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-08.12.48:176][361]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-08.12.51:031][648]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-08.12.55:240][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-08.12.59:799][588]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-08.13.01:159][714]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-08.13.07:071][285]LogNet: World NetDriver shutdown IpNetDriver_7 [GameNetDriver]
+[2019.06.12-08.13.07:071][285]LogNet: DestroyNamedNetDriver IpNetDriver_7 [GameNetDriver]
+[2019.06.12-08.13.07:071][285]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:61228, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_7, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-2F0A64204DE276A5495EDB83A7BBD8A4
+[2019.06.12-08.13.07:072][285]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61228, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_7, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-2F0A64204DE276A5495EDB83A7BBD8A4, Channels: 11, Time: 2019.06.12-08.13.07
+[2019.06.12-08.13.07:072][285]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61228, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_7, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-2F0A64204DE276A5495EDB83A7BBD8A4
+[2019.06.12-08.13.07:072][285]LogExit: GameNetDriver IpNetDriver_7 shut down
+[2019.06.12-08.13.07:072][285]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-08.13.07:072][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-08.13.07:099][285]LogSlate: Window 'MountainAndSea Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.12-08.13.07:138][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-08.13.07:173][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.12-08.13.07:173][285]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-08.13.07:211][285]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_8, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-2F0A64204DE276A5495EDB83A7BBD8A4
+[2019.06.12-08.13.07:211][285]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_8, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-2F0A64204DE276A5495EDB83A7BBD8A4, Channels: 11, Time: 2019.06.12-08.13.07
+[2019.06.12-08.13.07:211][285]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_8, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-2F0A64204DE276A5495EDB83A7BBD8A4
+[2019.06.12-08.13.07:213][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-08.13.07:214][285]LogExit: GameNetDriver None shut down
+[2019.06.12-08.13.07:227][286]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.06.12-08.13.07:227][286]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.06.12-08.15.38:957][306]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-08.15.39:049][317]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-08.15.39:067][317]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-08.15.39:067][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-08.15.39:067][317]PIE: New page: PIE session: DefaultMap (Jun 13, 2019, 12:15:39 AM)
+[2019.06.12-08.15.39:067][317]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_DefaultMap
+[2019.06.12-08.15.39:069][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002190s)
+[2019.06.12-08.15.39:070][317]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-08.15.39:070][317]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2019.06.12-08.15.39:070][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DefaultMap.DefaultMap to /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap (0.003029s)
+[2019.06.12-08.15.39:111][317]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.12-08.15.39:118][317]LogInit: FAudioDevice initialized.
+[2019.06.12-08.15.39:150][317]LogLoad: Game class is 'MountainAndSeaGameMode'
+[2019.06.12-08.15.39:151][317]LogWorld: Bringing World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-16.15.39
+[2019.06.12-08.15.39:151][317]LogWorld: Bringing up level for play took: 0.000555
+[2019.06.12-08.15.39:165][317]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-08.15.39:165][317]LogTemp: Display: ParseSettings for IpNetDriver_9
+[2019.06.12-08.15.39:165][317]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-08.15.39:165][317]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.06.12-08.15.39:165][317]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.06.12-08.15.39:165][317]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.06.12-08.15.39:165][317]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-08.15.39:165][317]LogNet: GameNetDriver IpNetDriver_9 IpNetDriver listening on port 17777
+[2019.06.12-08.15.39:166][317]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_DefaultMap -0.193
+[2019.06.12-08.15.39:168][317]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-08.15.39:174][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-08.15.39:214][317]LogNet: Browse: 127.0.0.1:17777//Game/Maps/DefaultMap
+[2019.06.12-08.15.39:214][317]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-08.15.39:214][317]LogTemp: Display: ParseSettings for IpNetDriver_10
+[2019.06.12-08.15.39:214][317]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.06.12-08.15.39:214][317]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.06.12-08.15.39:215][317]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-08.15.39:215][317]LogNet: Game client on port 17777, rate 10000
+[2019.06.12-08.15.39:219][317]PIE: Play in editor start time for /Game/Maps/DefaultMap -0.139
+[2019.06.12-08.15.39:227][317]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-08.15.39:227][317]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60963
+[2019.06.12-08.15.39:227][317]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 238171017254231166046219208025238139117045005175121031080197
+[2019.06.12-08.15.39:228][317]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 238171017254231166046219208025238139117045005175121031080197
+[2019.06.12-08.15.39:291][318]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60963
+[2019.06.12-08.15.39:291][318]LogHandshake: SendChallengeAck. InCookie: 238171017254231166046219208025238139117045005175121031080197
+[2019.06.12-08.15.39:291][318]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60963
+[2019.06.12-08.15.39:292][318]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-08.15.39:292][318]LogNet: NotifyAcceptedConnection: Name: DefaultMap, TimeStamp: 06/12/19 16:15:39, [UNetConnection] RemoteAddr: 127.0.0.1:60963, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_9, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-08.15.39:292][318]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60963, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_9, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-08.15.39:293][318]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_10, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-08.15.39:301][319]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap: Accepted
+[2019.06.12-08.15.39:301][319]LogNet: Remote platform little endian=1
+[2019.06.12-08.15.39:301][319]LogNet: This platform little endian=1
+[2019.06.12-08.15.39:320][320]LogNet: Login request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-A81F623A48973D617B3A0FA3675E92E0 userId: NULL:DESKTOP-82VF2NQ-A81F623A48973D617B3A0FA3675E92E0 platform: NULL
+[2019.06.12-08.15.39:321][320]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_DefaultMap, Game: /Script/MountainAndSea.MountainAndSeaGameMode)
+[2019.06.12-08.15.39:321][320]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_DefaultMap?game=/Script/MountainAndSea.MountainAndSeaGameMode
+[2019.06.12-08.15.39:368][320]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-08.15.39:368][320]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-08.15.39:368][320]LogWorld: Bringing World /Game/Maps/UEDPIE_2_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-16.15.39
+[2019.06.12-08.15.39:369][320]LogWorld: Bringing up level for play took: 0.000368
+[2019.06.12-08.15.39:369][320]LogLoad: Took 0.047540 seconds to LoadMap(/Game/Maps/UEDPIE_1_DefaultMap)
+[2019.06.12-08.15.39:379][321]LogNet: Client netspeed is 10000
+[2019.06.12-08.15.39:379][321]LogNet: Join request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-A81F623A48973D617B3A0FA3675E92E0?SplitscreenCount=1
+[2019.06.12-08.15.39:379][321]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-08.15.39:381][321]LogNet: Join succeeded: DESKTOP-82VF2NQ-A81F
+[2019.06.12-08.15.39:417][325]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-08.15.39:442][328]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-08.15.40:808][486]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-08.15.47:027][180]LogNet: World NetDriver shutdown IpNetDriver_9 [GameNetDriver]
+[2019.06.12-08.15.47:027][180]LogNet: DestroyNamedNetDriver IpNetDriver_9 [GameNetDriver]
+[2019.06.12-08.15.47:027][180]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:60963, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_9, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-A81F623A48973D617B3A0FA3675E92E0
+[2019.06.12-08.15.47:027][180]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60963, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_9, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-A81F623A48973D617B3A0FA3675E92E0, Channels: 11, Time: 2019.06.12-08.15.47
+[2019.06.12-08.15.47:027][180]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60963, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_9, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-A81F623A48973D617B3A0FA3675E92E0
+[2019.06.12-08.15.47:027][180]LogExit: GameNetDriver IpNetDriver_9 shut down
+[2019.06.12-08.15.47:027][180]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-08.15.47:027][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-08.15.47:049][180]LogSlate: Window 'MountainAndSea Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.12-08.15.47:087][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-08.15.47:122][180]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.12-08.15.47:122][180]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-08.15.47:165][180]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_10, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-82VF2NQ-A81F623A48973D617B3A0FA3675E92E0
+[2019.06.12-08.15.47:165][180]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_10, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-82VF2NQ-A81F623A48973D617B3A0FA3675E92E0, Channels: 2, Time: 2019.06.12-08.15.47
+[2019.06.12-08.15.47:165][180]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_10, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-82VF2NQ-A81F623A48973D617B3A0FA3675E92E0
+[2019.06.12-08.15.47:167][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-08.15.47:168][180]LogExit: GameNetDriver None shut down
+[2019.06.12-08.15.47:180][181]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.06.12-08.15.47:180][181]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.06.12-08.51.10:968][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-08.51.11:186][878]LogSlate: Window 'MountainAndSea - Unreal Editor' being destroyed
+[2019.06.12-08.51.11:402][879]Cmd: QUIT_EDITOR
+[2019.06.12-08.51.12:345][879]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2019.06.12-08.51.12:366][879]LogExit: Preparing to exit.
+[2019.06.12-08.51.12:730][879]LogExit: Editor shut down
+[2019.06.12-08.51.12:730][879]LogExit: Transaction tracking system shut down
+[2019.06.12-08.51.13:047][879]LogExit: Object subsystem successfully closed.
+[2019.06.12-08.51.13:075][879]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.06.12-08.51.13:079][879]LogD3D11RHI: Shutdown
+[2019.06.12-08.51.13:079][879]LogD3D11RHI: CleanupD3DDevice
+[2019.06.12-08.51.13:081][879]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.06.12-08.51.13:096][879]LogModuleManager: Shutting down and abandoning module MountainAndSea (635)
+[2019.06.12-08.51.13:096][879]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (628)
+[2019.06.12-08.51.13:096][879]LogModuleManager: Shutting down and abandoning module Voice (626)
+[2019.06.12-08.51.13:096][879]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (624)
+[2019.06.12-08.51.13:096][879]LogModuleManager: Shutting down and abandoning module SceneOutliner (622)
+[2019.06.12-08.51.13:096][879]LogModuleManager: Shutting down and abandoning module AddContentDialog (620)
+[2019.06.12-08.51.13:097][879]LogModuleManager: Shutting down and abandoning module WidgetCarousel (619)
+[2019.06.12-08.51.13:097][879]LogModuleManager: Shutting down and abandoning module EditorWidgets (616)
+[2019.06.12-08.51.13:097][879]LogModuleManager: Shutting down and abandoning module CollectionManager (614)
+[2019.06.12-08.51.13:097][879]LogModuleManager: Shutting down and abandoning module StatsViewer (612)
+[2019.06.12-08.51.13:097][879]LogModuleManager: Shutting down and abandoning module FoliageEdit (610)
+[2019.06.12-08.51.13:097][879]LogModuleManager: Shutting down and abandoning module LandscapeEditor (608)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module MeshPaintMode (606)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (604)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module ActorPickerMode (602)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module GeometryMode (600)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module TextureAlignMode (598)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module BspMode (596)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (594)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (592)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module AutomationWorker (590)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (588)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (586)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (584)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module PlacementMode (583)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module MaterialEditor (582)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (578)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (576)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (574)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (572)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module WebMMedia (570)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (568)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (566)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module SequenceRecorder (565)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
+[2019.06.12-08.51.13:098][879]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module SessionServices (538)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
+[2019.06.12-08.51.13:099][879]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
+[2019.06.12-08.51.14:042][879]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
+[2019.06.12-08.51.14:042][879]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (504)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.06.12-08.51.14:043][879]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.06.12-08.51.14:096][879]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.06.12-08.51.14:096][879]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.06.12-08.51.14:096][879]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.06.12-08.51.14:096][879]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.06.12-08.51.14:096][879]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.06.12-08.51.14:096][879]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.06.12-08.51.14:096][879]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.06.12-08.51.14:096][879]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.06.12-08.51.14:096][879]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.06.12-08.51.14:096][879]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.06.12-08.51.14:096][879]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module DesktopPlatform (441)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.06.12-08.51.14:097][879]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (404)
+[2019.06.12-08.51.14:101][879]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.06.12-08.51.14:294][879]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.06.12-08.51.14:295][879]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.06.12-08.51.14:300][879]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.06.12-08.51.14:301][879]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.06.12-08.51.14:403][879]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.06.12-08.51.14:503][879]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.06.12-08.51.14:503][879]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.06.12-08.51.14:503][879]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.06.12-08.51.14:503][879]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.06.12-08.51.14:503][879]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.06.12-08.51.14:503][879]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.06.12-08.51.14:503][879]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.06.12-08.51.14:504][879]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.06.12-08.51.14:504][879]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.06.12-08.51.14:504][879]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.06.12-08.51.14:504][879]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.06.12-08.51.14:505][879]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.06.12-08.51.14:506][879]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.06.12-08.51.14:506][879]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.06.12-08.51.14:506][879]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.06.12-08.51.14:506][879]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.06.12-08.51.14:506][879]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.06.12-08.51.14:506][879]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.06.12-08.51.14:506][879]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.06.12-08.51.14:507][879]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.06.12-08.51.14:514][879]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.06.12-08.51.14:514][879]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.06.12-08.51.14:515][879]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.06.12-08.51.14:518][879]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.06.12-08.51.14:600][879]LogDerivedDataCache: Shutdown
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.06.12-08.51.14:601][879]LogXGEController: Cleaning working directory: C:/Users/yifan/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.06.12-08.51.14:601][879]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.06.12-08.51.14:602][879]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.06.12-08.51.14:602][879]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.06.12-08.51.14:602][879]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.06.12-08.51.14:602][879]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.06.12-08.51.14:602][879]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.06.12-08.51.14:603][879]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.06.12-08.51.14:603][879]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.06.12-08.51.14:604][879]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.06.12-08.51.14:604][879]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.06.12-08.51.14:610][879]LogHMD: Freeing OpenVRDLLHandle.
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.06.12-08.51.14:610][879]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.06.12-08.51.14:611][879]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.06.12-08.51.14:611][879]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.06.12-08.51.14:632][879]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.06.12-08.51.14:632][879]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.06.12-08.51.14:633][879]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B99989538-4290-573F-96A0-D78CE0291597%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=66443c95406cedbd438a5c9d68c77901%7C306c28e8032641baa8b944df9ad3613a%7C157b4b3e-a9d9-4a15-a3af-62b3b8f8ddf5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.06.12-08.51.14:661][879]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.06.12-08.51.14:663][879]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.06.12-08.51.14:663][879]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.06.12-08.51.14:663][879]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.06.12-08.51.14:663][879]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.06.12-08.51.14:663][879]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.06.12-08.51.14:663][879]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.06.12-08.51.14:663][879]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.06.12-08.51.14:663][879]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.06.12-08.51.14:663][879]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.06.12-08.51.14:663][879]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.06.12-08.51.14:664][879]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.06.12-08.51.14:664][879]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.06.12-08.51.14:664][879]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.06.12-08.51.14:664][879]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.06.12-08.51.14:664][879]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.06.12-08.51.14:664][879]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.06.12-08.51.14:664][879]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.06.12-08.51.14:665][879]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.06.12-08.51.14:665][879]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.06.12-08.51.14:665][879]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.06.12-08.51.14:665][879]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.06.12-08.51.14:665][879]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.06.12-08.51.14:665][879]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.06.12-08.51.14:665][879]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.06.12-08.51.14:665][879]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.06.12-08.51.14:665][879]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.06.12-08.51.14:665][879]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.06.12-08.51.14:665][879]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.06.12-08.51.14:684][879]LogExit: Exiting.
+[2019.06.12-08.51.14:696][879]Log file closed, 06/12/19 16:51:14

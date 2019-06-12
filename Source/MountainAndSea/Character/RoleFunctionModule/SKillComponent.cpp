@@ -6,6 +6,7 @@
 #include "System/Skill/SkillInstance.h"
 #include "Engine/World.h"
 #include "System/TableManager/CTableManager.h"
+#include "UnrealNetwork.h"
 
 // Sets default values for this component's properties
 USKillComponent::USKillComponent():m_nCurrentSkillId(0),m_bIsGroup(false)
@@ -87,8 +88,9 @@ void USKillComponent::StartSkill(const FSkillDataBase * skillData)
 		//TODO:Show SystemNotify
 		return;
 	}
-	if (ValidateSkill(skillData)&&m_pMainCharacter->ChangeRoleStat(SKillStat) )
+	if (ValidateSkill(skillData)&&m_pMainCharacter->ValidStatChange(SKillStat) )
 	{
+		m_pMainCharacter->RPC_Muitcast_ChangeRoleState(SKillStat);
 		_preparePlaySkill();
 	}
 } 
@@ -119,8 +121,7 @@ void USKillComponent::_preparePlaySkill()
 		if (m_pCurrentSkillData->PhaseStep.Contains(Phase_Prepare))
 		{
 			m_nSkillPhase = Phase_Prepare;
-			m_pMainCharacter->StopAnimMontage();
-			m_pMainCharacter->PlayAnimMontage(m_pCurrentSkillData->PhaseStep[Phase_Prepare].SkillAnimMontage);
+			m_pMainCharacter->RPC_Muitcast_PlaySkillMontage(m_pCurrentSkillData->PhaseStep[Phase_Prepare].SkillAnimMontage);
 			return;
 		}
 		_playingSkill();
@@ -168,9 +169,20 @@ void USKillComponent::InterruptSkill()
 	m_pCurrentSkillData.Reset();
 }
 
-void USKillComponent::ResponseSkillkeyboard(FString key)
+void USKillComponent::ResponseSkillkeyboard(const int8 & key)
 {
 	m_pSkillConfirm->OnSkillKeyBoardEnter(key);
+}
+
+bool USKillComponent::RPC_Server_LunchSkill_Validate(int32 nSkillID)
+{
+	return true;
+}
+
+void USKillComponent::RPC_Server_LunchSkill_Implementation(int32 nSkillID)
+{
+	const FSkillDataBase * _skilData = m_pSkillConfirm->EnsureSkill(nSkillID);
+	StartSkill(_skilData);
 }
 
 void USKillComponent::LunchSkill()
@@ -189,10 +201,23 @@ bool USKillComponent::GetSkillIsAllowMove() const
 
 void USKillComponent::SpawnSkill()
 {
-	const FSkillInstanceData * _skillData = CTableWrapper<FSkillInstanceData>::GetItem(m_pCurrentSkillData->SkillInstanceId);
-	if (_skillData == nullptr)
+	if (!GetOwner()->HasAuthority())
 	{
 		return;
 	}
-	//GetWorld()->SpawnActor<ASkillInstance>(_skillData,);
+	const FSkillInstanceData * _skillData = CTableWrapper<FSkillInstanceData>::GetItem(m_pCurrentSkillData->SkillInstanceId);
+	if (_skillData == nullptr|| m_pMainCharacter==nullptr)
+	{
+		return;
+	}
+	FActorSpawnParameters _tempSpawn;
+	_tempSpawn.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	FTransform _ActorTarnsform = m_pMainCharacter->GetActorTransform();
+	AActor * _tempActor = GetWorld()->SpawnActor(_skillData->SkillType, &_ActorTarnsform, _tempSpawn);
+	ASkillInstance* _skIllIns= Cast<ASkillInstance>(_tempActor);
+	if (_skIllIns!=nullptr)
+	{
+		_skIllIns->InitSkill(m_pMainCharacter->GetRoleAttrBase(), *_skillData, m_pMainCharacter->GetActorTransform());
+		_skIllIns->PlaySkill();
+	}
 }

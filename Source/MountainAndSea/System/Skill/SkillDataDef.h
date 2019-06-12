@@ -15,7 +15,7 @@ enum ESkillType
 	Skill_Aided,		//辅助型
 };
 
-UENUM()
+UENUM(BlueprintType)
 enum ESkillPhaseEnum
 {
 	Phase_Prepare,//准备阶段
@@ -29,16 +29,16 @@ struct FSkillPhaseStruct
 {
 	GENERATED_BODY()
 public:
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		int32 SkillPhase;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		int32 ContinueTime;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		TArray<int32> EffectId;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		UAnimMontage * SkillAnimMontage;
 };
 
@@ -48,37 +48,37 @@ struct FSkillDataBase:public FTableRowBase
 {
 	GENERATED_BODY()
 public:
-	UPROPERTY(BlueprintReadWrite,EditAnywhere,Category=SKill)
+	UPROPERTY(BlueprintReadOnly,EditAnywhere,Category=SKill)
 		int32 Id;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		int32 Level;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		int32 PropertyType;
 	
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		int32 Cd;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		int32 ConsumeMp;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		int32 SKillNameId;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		int32 SkillType;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
-		bool CanMove=true;
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
+		bool CanMove;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		bool BeCancel;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		int32 SkillInstanceId;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		TMap<int32,FSkillPhaseStruct> PhaseStep;//技能阶段
 public:
 	static FString GetTableName()
@@ -87,27 +87,35 @@ public:
 	}
 };
 
+class ASkillInstance;
+
 USTRUCT(BlueprintType)
 struct FSkillInstanceData : public FTableRowBase
 {
 	GENERATED_BODY()
 public:
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		int32 Id;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
+		TSubclassOf<AActor> SkillType;
+
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		int32 EffectNameId;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		int32 EffectType;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		int32 ContinueTime;//持续时间
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		int32 LoopTimes;//循环次数
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = SKill)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
+		float SkillSpeed;//循环次数
+
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = SKill)
 		UParticleSystem* SkillEffect;//技能特效
 public:
 	static FString GetTableName()

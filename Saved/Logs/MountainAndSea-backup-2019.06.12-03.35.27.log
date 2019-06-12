@@ -1,0 +1,822 @@
+﻿Log file open, 06/12/19 11:33:25
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: MountainAndSea
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.658277
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.090s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: AMD Ryzen 7 2700X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 1080 Ti
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/UnrealEngine/UnrealEngine-release/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.06.12-03.33.25:428][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.06.12-03.33.25:428][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.06.12-03.33.25:428][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.06.12-03.33.25:428][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.06.12-03.33.25:428][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.06.12-03.33.25:428][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.06.12-03.33.25:428][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.06.12-03.33.25:428][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.06.12-03.33.25:428][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.06.12-03.33.25:428][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.06.12-03.33.25:428][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.06.12-03.33.25:429][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.06.12-03.33.25:429][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.06.12-03.33.25:429][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.06.12-03.33.25:429][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.06.12-03.33.25:429][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.06.12-03.33.25:429][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.06.12-03.33.25:429][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.06.12-03.33.25:429][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.06.12-03.33.25:429][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.06.12-03.33.25:429][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.06.12-03.33.25:430][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.06.12-03.33.25:430][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.06.12-03.33.25:430][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.06.12-03.33.25:430][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.06.12-03.33.25:430][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.06.12-03.33.25:430][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.06.12-03.33.25:430][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.06.12-03.33.25:430][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.06.12-03.33.25:430][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.06.12-03.33.25:430][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.06.12-03.33.25:430][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.06.12-03.33.25:431][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.06.12-03.33.25:431][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.06.12-03.33.25:431][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.06.12-03.33.25:431][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.06.12-03.33.25:439][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.33.25:439][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.12-03.33.25:440][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.12-03.33.25:440][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.33.25:440][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.12-03.33.25:440][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.33.25:440][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.12-03.33.25:440][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.12-03.33.25:440][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.12-03.33.25:440][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.12-03.33.25:440][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.12-03.33.25:440][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.12-03.33.25:440][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.12-03.33.25:440][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.12-03.33.25:441][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.12-03.33.25:441][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.12-03.33.25:441][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.12-03.33.25:441][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.12-03.33.25:441][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.12-03.33.25:441][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.12-03.33.25:441][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.12-03.33.25:441][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.12-03.33.25:441][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.12-03.33.25:441][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.12-03.33.25:441][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.33.25:441][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.12-03.33.25:442][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.12-03.33.25:442][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.12-03.33.25:442][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.12-03.33.25:442][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.12-03.33.25:442][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.12-03.33.25:442][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.12-03.33.25:442][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.12-03.33.25:442][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.12-03.33.25:442][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.12-03.33.25:442][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.12-03.33.25:442][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.12-03.33.25:442][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.12-03.33.25:443][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.12-03.33.25:443][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.12-03.33.25:443][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.12-03.33.25:443][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.12-03.33.25:443][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.12-03.33.25:443][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.12-03.33.25:443][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.12-03.33.25:443][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.12-03.33.25:443][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.12-03.33.25:443][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.12-03.33.25:443][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.12-03.33.25:443][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.12-03.33.25:444][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.12-03.33.25:444][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.12-03.33.25:444][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.12-03.33.25:444][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.12-03.33.25:444][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.12-03.33.25:444][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.33.25:444][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.12-03.33.25:444][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.12-03.33.25:444][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.12-03.33.25:444][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.12-03.33.25:445][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.12-03.33.25:445][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.12-03.33.25:445][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.12-03.33.25:445][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.12-03.33.25:445][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.33.25:445][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.12-03.33.25:445][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.12-03.33.25:445][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.12-03.33.25:445][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.12-03.33.25:445][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.12-03.33.25:445][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.12-03.33.25:445][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.12-03.33.25:445][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.12-03.33.25:445][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.12-03.33.25:446][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.12-03.33.25:446][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.12-03.33.25:446][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.12-03.33.25:446][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.12-03.33.25:446][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.33.25:446][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.12-03.33.25:446][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.12-03.33.25:446][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.12-03.33.25:446][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.12-03.33.25:465][  0]LogHAL: Display: Platform has ~ 16 GB [17096769536 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.06.12-03.33.25:466][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.06.12-03.33.25:466][  0]LogInit: Going up to parent DeviceProfile []
+[2019.06.12-03.33.25:466][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.33.25:466][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.12-03.33.25:466][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.12-03.33.25:466][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.33.25:466][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.12-03.33.25:466][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.33.25:466][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.12-03.33.25:467][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.12-03.33.25:467][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.12-03.33.25:467][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.12-03.33.25:467][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.12-03.33.25:467][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.12-03.33.25:467][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.12-03.33.25:467][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.12-03.33.25:467][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.12-03.33.25:467][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.12-03.33.25:467][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.12-03.33.25:467][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.12-03.33.25:467][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.12-03.33.25:467][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.12-03.33.25:468][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.12-03.33.25:468][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.12-03.33.25:468][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.12-03.33.25:468][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.12-03.33.25:468][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.33.25:468][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.12-03.33.25:468][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.12-03.33.25:468][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.12-03.33.25:468][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.12-03.33.25:468][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.12-03.33.25:468][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.12-03.33.25:468][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.12-03.33.25:469][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.12-03.33.25:469][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.12-03.33.25:469][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.12-03.33.25:469][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.12-03.33.25:469][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.12-03.33.25:469][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.12-03.33.25:469][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.12-03.33.25:469][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.12-03.33.25:469][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.12-03.33.25:469][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.12-03.33.25:469][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.12-03.33.25:469][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.12-03.33.25:469][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.12-03.33.25:470][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.12-03.33.25:470][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.12-03.33.25:470][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.12-03.33.25:470][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.12-03.33.25:470][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.12-03.33.25:470][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.12-03.33.25:470][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.12-03.33.25:470][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.12-03.33.25:470][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.12-03.33.25:470][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.12-03.33.25:470][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.33.25:470][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.12-03.33.25:471][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.12-03.33.25:471][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.12-03.33.25:471][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.12-03.33.25:471][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.12-03.33.25:471][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.12-03.33.25:471][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.12-03.33.25:471][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.12-03.33.25:471][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.33.25:471][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.12-03.33.25:471][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.12-03.33.25:471][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.12-03.33.25:471][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.12-03.33.25:471][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.12-03.33.25:472][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.12-03.33.25:472][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.12-03.33.25:472][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.12-03.33.25:472][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.12-03.33.25:472][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.12-03.33.25:472][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.12-03.33.25:472][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.12-03.33.25:472][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.12-03.33.25:472][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Scalability.ini]
+[2019.06.12-03.33.25:472][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.12-03.33.25:472][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.12-03.33.25:472][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.06.12-03.33.25:473][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.06.12-03.33.25:473][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UnrealEngineProject/MountainAndSea/Saved/Config/Windows/Engine.ini]
+[2019.06.12-03.33.25:473][  0]LogInit: Computer: DESKTOP-82VF2NQ
+[2019.06.12-03.33.25:473][  0]LogInit: User: yifan
+[2019.06.12-03.33.25:473][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.06.12-03.33.25:474][  0]LogInit: High frequency timer resolution =3.898925 MHz
+[2019.06.12-03.33.25:474][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.06.12-03.33.25:474][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.12-03.33.25:474][  0]LogMemory: Process Physical Memory: 105.36 MB used, 105.36 MB peak
+[2019.06.12-03.33.25:474][  0]LogMemory: Process Virtual Memory: 89.60 MB used, 89.60 MB peak
+[2019.06.12-03.33.25:475][  0]LogMemory: Physical Memory: 7592.58 MB used,  8712.17 MB free, 16304.75 MB total
+[2019.06.12-03.33.25:475][  0]LogMemory: Virtual Memory: 4683.96 MB used,  134213040.00 MB free, 134217728.00 MB total
+[2019.06.12-03.33.25:631][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.06.12-03.33.25:631][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.06.12-03.33.25:992][  0]LogStreaming: Display: Took  0.360s to InitEngineTextLocalization.
+[2019.06.12-03.33.25:992][  0]LogInit: Setting process to per monitor DPI aware
+[2019.06.12-03.33.26:057][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.12-03.33.26:057][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.12-03.33.26:254][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.12-03.33.26:254][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.12-03.33.26:353][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2019.06.12-03.33.26:353][  0]LogD3D11RHI:       11127/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.06.12-03.33.26:359][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.12-03.33.26:359][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.12-03.33.26:359][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.12-03.33.26:370][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.12-03.33.26:370][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2019.06.12-03.33.26:370][  0]LogWindows: EnumDisplayDevices:
+[2019.06.12-03.33.26:370][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2019.06.12-03.33.26:370][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.06.12-03.33.26:370][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.06.12-03.33.26:371][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.06.12-03.33.26:371][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.06.12-03.33.26:371][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2019.06.12-03.33.26:371][  0]LogD3D11RHI:   Driver Version: 399.24 (internal:24.21.13.9924, unified:399.24)
+[2019.06.12-03.33.26:371][  0]LogD3D11RHI:      Driver Date: 9-5-2018
+[2019.06.12-03.33.26:371][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2019.06.12-03.33.26:440][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.12-03.33.26:461][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.06.12-03.33.26:826][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.06.12-03.33.26:842][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.06.12-03.33.26:867][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.06.12-03.33.26:895][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.06.12-03.33.26:917][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.06.12-03.33.26:939][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.06.12-03.33.26:963][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.06.12-03.33.26:988][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.06.12-03.33.26:997][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.06.12-03.33.27:096][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:096][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:096][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:096][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:096][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.12-03.33.27:101][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.06.12-03.33.27:203][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.12-03.33.27:203][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.12-03.33.27:242][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.12-03.33.27:243][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.12-03.33.27:267][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.06.12-03.33.27:282][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.06.12-03.33.27:310][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.06.12-03.33.27:335][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.06.12-03.33.27:402][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.06.12-03.33.27:402][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.06.12-03.33.27:402][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.12-03.33.27:510][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../UnrealEngineProject/MountainAndSea/Intermediate/Shaders/WorkingDirectory/14736/).
+[2019.06.12-03.33.27:510][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/yifan/AppData/Local/Temp/UnrealShaderWorkingDir/DE32C0C942FCFE239E44A29B89896EEB/'.
+[2019.06.12-03.33.27:511][  0]LogXGEController: Cleaning working directory: C:/Users/yifan/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.06.12-03.33.27:512][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.12-03.33.27:512][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.12-03.33.27:512][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.12-03.33.27:994][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.12-03.33.28:044][  0]LogDerivedDataCache: Loaded boot cache 0.05s 74MB C:/Users/yifan/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.06.12-03.33.28:045][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/yifan/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.06.12-03.33.28:045][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealEngineProject/MountainAndSea/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.12-03.33.28:045][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.12-03.33.28:045][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealEngineProject/MountainAndSea/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.12-03.33.28:045][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.12-03.33.28:074][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.12-03.33.28:074][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.12-03.33.28:075][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.06.12-03.33.28:088][  0]LogDerivedDataCache: Using Local data cache path C:/Users/yifan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.12-03.33.28:088][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.12-03.33.28:088][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.12-03.33.28:110][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.12-03.33.28:112][  0]LogSlate: Using FreeType 2.6.0
+[2019.06.12-03.33.28:113][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.12-03.33.28:230][  0]LogAssetRegistry: FAssetRegistry took 0.0435 seconds to start up
+[2019.06.12-03.33.28:601][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.12-03.33.28:796][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.06.12-03.33.28:810][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.06.12-03.33.28:811][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.06.12-03.33.28:811][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.12-03.33.28:811][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.06.12-03.33.28:830][  0]LogNetVersion: MountainAndSea 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3138369148)
+[2019.06.12-03.33.29:288][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.059733 seconds
+[2019.06.12-03.33.29:297][  0]LogUObjectArray: 39776 objects as part of root set at end of initial load.
+[2019.06.12-03.33.29:297][  0]LogUObjectAllocator: 6914888 out of 0 bytes used by permanent object pool.
+[2019.06.12-03.33.29:297][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.12-03.33.30:246][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.12-03.33.30:263][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.12-03.33.31:188][  0]SourceControl: Source control is disabled
+[2019.06.12-03.33.31:188][  0]SourceControl: Source control is disabled
+[2019.06.12-03.33.31:192][  0]SourceControl: Source control is disabled
+[2019.06.12-03.33.31:195][  0]SourceControl: Source control is disabled
+[2019.06.12-03.33.31:450][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.12-03.33.31:575][  0]LogOcInput: OculusInput pre-init called
+[2019.06.12-03.33.31:748][  0]LogEngine: Initializing Engine...
+[2019.06.12-03.33.31:749][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.12-03.33.31:751][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.06.12-03.33.31:751][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.12-03.33.31:752][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.06.12-03.33.31:752][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.12-03.33.31:986][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.06.12-03.33.32:001][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.12-03.33.32:024][  0]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.12-03.33.32:125][  0]LogInit: FAudioDevice initialized.
+[2019.06.12-03.33.32:126][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.06.12-03.33.32:220][  0]LogDerivedDataCache: Saved boot cache 0.09s 74MB C:/Users/yifan/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.06.12-03.33.32:230][  0]LogInit: Texture streaming: Enabled
+[2019.06.12-03.33.32:251][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.12-03.33.32:261][  0]LogInit: Transaction tracking system initialized
+[2019.06.12-03.33.32:286][  0]BlueprintLog: New page: Editor Load
+[2019.06.12-03.33.32:394][  0]LocalizationService: Localization service is disabled
+[2019.06.12-03.33.32:933][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngineProject/MountainAndSea/Content/' took 0.02s
+[2019.06.12-03.33.32:933][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.12-03.33.32:934][  0]LogCook: Display: Mobile HDR setting 1
+[2019.06.12-03.33.32:934][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.06.12-03.33.32:934][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.06.12-03.33.32:934][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.12-03.33.32:934][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.06.12-03.33.32:934][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.12-03.33.33:133][  0]SourceControl: Source control is disabled
+[2019.06.12-03.33.33:133][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealEngineProject/MountainAndSea/Content/Maps/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.12-03.33.33:134][  0]LightingResults: New page: Lighting Build
+[2019.06.12-03.33.33:137][  0]MapCheck: New page: Map Check
+[2019.06.12-03.33.33:137][  0]LightingResults: New page: Lighting Build
+[2019.06.12-03.33.33:347][  0]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-03.33.33:352][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.12-03.33.33:399][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.12-03.33.33:400][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.136ms to complete.
+[2019.06.12-03.33.33:400][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.267
+[2019.06.12-03.33.33:516][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.33.33:523][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.33.33:530][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.33.33:538][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.33.33:547][  0]LogCollectionManager: Loaded 0 collections in 0.001382 seconds
+[2019.06.12-03.33.33:581][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngineProject/MountainAndSea/Saved/Collections/' took 0.01s
+[2019.06.12-03.33.33:582][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngineProject/MountainAndSea/Content/Developers/yifan/Collections/' took 0.00s
+[2019.06.12-03.33.33:582][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngineProject/MountainAndSea/Content/Collections/' took 0.01s
+[2019.06.12-03.33.33:582][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.06.12-03.33.33:593][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2660 classes and 628 folders.
+[2019.06.12-03.33.33:597][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.06.12-03.33.33:599][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:600][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:600][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:600][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:601][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:602][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:603][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:604][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:605][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:606][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:607][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:608][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:608][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:609][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:610][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:611][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:612][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:612][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:613][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:614][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:615][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:616][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:617][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:618][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:619][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:620][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.12-03.33.33:661][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.06.12-03.33.33:669][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.06.12-03.33.33:730][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.12-03.33.33:732][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.12-03.33.33:738][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.12-03.33.33:807][  0]LogRenderer: Reallocating scene render targets to support 1172x668 Format 10 NumSamples 1 (Frame:1).
+[2019.06.12-03.33.33:927][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.06.12-03.33.33:928][  0]LogLoad: (Engine Initialization) Total time: 10.80 seconds
+[2019.06.12-03.33.33:928][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.12-03.33.33:939][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2019.06.12-03.33.34:009][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.06.12-03.33.34:038][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.12-03.33.34:142][  2]LogAssetRegistry: Asset discovery search completed in 5.9369 seconds
+[2019.06.12-03.33.34:143][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.06.12-03.33.34:144][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000176 seconds (updated 0 objects)
+[2019.06.12-03.33.41:836][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-03.33.41:935][932]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-03.33.41:953][932]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.33.41:953][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-03.33.41:954][932]PIE: New page: PIE session: DefaultMap (Jun 12, 2019, 7:33:41 PM)
+[2019.06.12-03.33.41:967][932]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_DefaultMap
+[2019.06.12-03.33.41:970][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002697s)
+[2019.06.12-03.33.41:971][932]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-03.33.41:971][932]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2019.06.12-03.33.41:971][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DefaultMap.DefaultMap to /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap (0.003909s)
+[2019.06.12-03.33.42:033][932]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.12-03.33.42:043][932]LogInit: FAudioDevice initialized.
+[2019.06.12-03.33.42:094][932]LogLoad: Game class is 'MountainAndSeaGameMode'
+[2019.06.12-03.33.42:097][932]LogWorld: Bringing World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-11.33.42
+[2019.06.12-03.33.42:097][932]LogWorld: Bringing up level for play took: 0.001094
+[2019.06.12-03.33.42:118][932]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.06.12-03.33.42:122][932]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.33.42:123][932]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2019.06.12-03.33.42:123][932]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.33.42:123][932]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.06.12-03.33.42:123][932]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.06.12-03.33.42:123][932]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.06.12-03.33.42:130][932]LogInit: WinSock: I am DESKTOP-82VF2NQ (192.168.199.149:0)
+[2019.06.12-03.33.42:130][932]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.33.42:130][932]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2019.06.12-03.33.42:131][932]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_DefaultMap 0.597
+[2019.06.12-03.33.42:136][932]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.33.42:141][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.33.42:186][932]LogNet: Browse: 127.0.0.1:17777//Game/Maps/DefaultMap
+[2019.06.12-03.33.42:186][932]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.33.42:186][932]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2019.06.12-03.33.42:186][932]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.06.12-03.33.42:186][932]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.06.12-03.33.42:187][932]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.33.42:188][932]LogNet: Game client on port 17777, rate 10000
+[2019.06.12-03.33.42:191][932]PIE: Play in editor start time for /Game/Maps/DefaultMap 0.656
+[2019.06.12-03.33.42:196][932]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.33.42:196][932]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64007
+[2019.06.12-03.33.42:196][932]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 153145022001189007138198125123236128162019100135254126097244
+[2019.06.12-03.33.42:201][932]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 153145022001189007138198125123236128162019100135254126097244
+[2019.06.12-03.33.42:297][933]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64007
+[2019.06.12-03.33.42:297][933]LogHandshake: SendChallengeAck. InCookie: 153145022001189007138198125123236128162019100135254126097244
+[2019.06.12-03.33.42:297][933]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64007
+[2019.06.12-03.33.42:298][933]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.33.42:299][933]LogNet: NotifyAcceptedConnection: Name: DefaultMap, TimeStamp: 06/12/19 11:33:42, [UNetConnection] RemoteAddr: 127.0.0.1:64007, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-03.33.42:299][933]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64007, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-03.33.42:300][933]LogNetVersion: MountainAndSea 1.0.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1277640229)
+[2019.06.12-03.33.42:301][933]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-03.33.42:312][934]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap: Accepted
+[2019.06.12-03.33.42:312][934]LogNet: Remote platform little endian=1
+[2019.06.12-03.33.42:312][934]LogNet: This platform little endian=1
+[2019.06.12-03.33.42:332][935]LogNet: Login request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-6EAA6C3B4919E0C3DB688080B2AA6E08 userId: NULL:DESKTOP-82VF2NQ-6EAA6C3B4919E0C3DB688080B2AA6E08 platform: NULL
+[2019.06.12-03.33.42:333][935]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_DefaultMap, Game: /Script/MountainAndSea.MountainAndSeaGameMode)
+[2019.06.12-03.33.42:337][935]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_DefaultMap?game=/Script/MountainAndSea.MountainAndSeaGameMode
+[2019.06.12-03.33.42:377][935]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-03.33.42:377][935]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.33.42:378][935]LogWorld: Bringing World /Game/Maps/UEDPIE_2_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-11.33.42
+[2019.06.12-03.33.42:378][935]LogWorld: Bringing up level for play took: 0.000526
+[2019.06.12-03.33.42:379][935]LogLoad: Took 0.041816 seconds to LoadMap(/Game/Maps/UEDPIE_1_DefaultMap)
+[2019.06.12-03.33.42:389][936]LogNet: Client netspeed is 10000
+[2019.06.12-03.33.42:390][936]LogNet: Join request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-6EAA6C3B4919E0C3DB688080B2AA6E08?SplitscreenCount=1
+[2019.06.12-03.33.42:390][936]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-03.33.42:393][936]LogNet: Join succeeded: DESKTOP-82VF2NQ-6EAA
+[2019.06.12-03.33.42:401][937]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.06.12-03.33.42:458][939]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-03.33.42:459][939]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-03.33.44:069][122]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.33.49:197][685]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2019.06.12-03.33.49:197][685]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2019.06.12-03.33.49:197][685]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:64007, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-6EAA6C3B4919E0C3DB688080B2AA6E08
+[2019.06.12-03.33.49:197][685]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64007, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-6EAA6C3B4919E0C3DB688080B2AA6E08, Channels: 11, Time: 2019.06.12-03.33.49
+[2019.06.12-03.33.49:198][685]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64007, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-6EAA6C3B4919E0C3DB688080B2AA6E08
+[2019.06.12-03.33.49:198][685]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2019.06.12-03.33.49:198][685]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.33.49:198][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.33.49:221][685]LogSlate: Window 'MountainAndSea Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.12-03.33.49:262][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.33.49:302][685]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.12-03.33.49:302][685]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.33.49:343][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.33.49:343][685]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-6EAA6C3B4919E0C3DB688080B2AA6E08
+[2019.06.12-03.33.49:343][685]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-6EAA6C3B4919E0C3DB688080B2AA6E08, Channels: 10, Time: 2019.06.12-03.33.49
+[2019.06.12-03.33.49:343][685]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-6EAA6C3B4919E0C3DB688080B2AA6E08
+[2019.06.12-03.33.49:344][685]LogExit: GameNetDriver None shut down
+[2019.06.12-03.33.49:364][686]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.06.12-03.33.49:364][686]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.06.12-03.34.09:596][374]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-03.34.09:687][385]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-03.34.09:705][385]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.34.09:705][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-03.34.09:705][385]PIE: New page: PIE session: DefaultMap (Jun 12, 2019, 7:34:09 PM)
+[2019.06.12-03.34.09:705][385]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_DefaultMap
+[2019.06.12-03.34.09:707][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002199s)
+[2019.06.12-03.34.09:708][385]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-03.34.09:708][385]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2019.06.12-03.34.09:708][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DefaultMap.DefaultMap to /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap (0.003304s)
+[2019.06.12-03.34.09:749][385]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.12-03.34.09:759][385]LogInit: FAudioDevice initialized.
+[2019.06.12-03.34.09:794][385]LogLoad: Game class is 'MountainAndSeaGameMode'
+[2019.06.12-03.34.09:795][385]LogWorld: Bringing World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-11.34.09
+[2019.06.12-03.34.09:796][385]LogWorld: Bringing up level for play took: 0.000772
+[2019.06.12-03.34.09:812][385]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.34.09:812][385]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2019.06.12-03.34.09:813][385]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.34.09:813][385]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.06.12-03.34.09:813][385]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.06.12-03.34.09:813][385]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.06.12-03.34.09:814][385]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.34.09:814][385]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2019.06.12-03.34.09:815][385]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_DefaultMap 0.28
+[2019.06.12-03.34.09:818][385]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.34.09:825][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.34.09:865][385]LogNet: Browse: 127.0.0.1:17777//Game/Maps/DefaultMap
+[2019.06.12-03.34.09:866][385]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.34.09:866][385]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2019.06.12-03.34.09:866][385]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.06.12-03.34.09:866][385]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.06.12-03.34.09:867][385]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.34.09:867][385]LogNet: Game client on port 17777, rate 10000
+[2019.06.12-03.34.09:870][385]PIE: Play in editor start time for /Game/Maps/DefaultMap 0.335
+[2019.06.12-03.34.09:875][385]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.34.09:875][385]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50878
+[2019.06.12-03.34.09:875][385]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 148244151042143241244151011252130223246248137001111163229087
+[2019.06.12-03.34.09:877][385]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 148244151042143241244151011252130223246248137001111163229087
+[2019.06.12-03.34.09:938][386]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50878
+[2019.06.12-03.34.09:939][386]LogHandshake: SendChallengeAck. InCookie: 148244151042143241244151011252130223246248137001111163229087
+[2019.06.12-03.34.09:939][386]LogNet: Server accepting post-challenge connection from: 127.0.0.1:50878
+[2019.06.12-03.34.09:940][386]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.34.09:940][386]LogNet: NotifyAcceptedConnection: Name: DefaultMap, TimeStamp: 06/12/19 11:34:09, [UNetConnection] RemoteAddr: 127.0.0.1:50878, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-03.34.09:940][386]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:50878, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-03.34.09:942][386]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-03.34.09:953][387]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap: Accepted
+[2019.06.12-03.34.09:953][387]LogNet: Remote platform little endian=1
+[2019.06.12-03.34.09:953][387]LogNet: This platform little endian=1
+[2019.06.12-03.34.09:977][388]LogNet: Login request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-2CC952A74C91C5DAFBCC668606A41BCD userId: NULL:DESKTOP-82VF2NQ-2CC952A74C91C5DAFBCC668606A41BCD platform: NULL
+[2019.06.12-03.34.09:978][388]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_DefaultMap, Game: /Script/MountainAndSea.MountainAndSeaGameMode)
+[2019.06.12-03.34.09:979][388]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_DefaultMap?game=/Script/MountainAndSea.MountainAndSeaGameMode
+[2019.06.12-03.34.10:024][388]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-03.34.10:024][388]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.34.10:025][388]LogWorld: Bringing World /Game/Maps/UEDPIE_2_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-11.34.10
+[2019.06.12-03.34.10:025][388]LogWorld: Bringing up level for play took: 0.000504
+[2019.06.12-03.34.10:026][388]LogLoad: Took 0.047092 seconds to LoadMap(/Game/Maps/UEDPIE_1_DefaultMap)
+[2019.06.12-03.34.10:045][389]LogNet: Client netspeed is 10000
+[2019.06.12-03.34.10:045][389]LogNet: Join request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-2CC952A74C91C5DAFBCC668606A41BCD?SplitscreenCount=1
+[2019.06.12-03.34.10:046][389]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-03.34.10:048][389]LogNet: Join succeeded: DESKTOP-82VF2NQ-2CC9
+[2019.06.12-03.34.10:061][390]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-03.34.10:087][393]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-03.34.11:179][515]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.34.17:070][974]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.34.19:147][182]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.34.21:417][252]LogRenderer: Reallocating scene render targets to support 1280x1048 Format 10 NumSamples 1 (Frame:865).
+[2019.06.12-03.34.22:398][341]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.34.28:704][ 97]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2019.06.12-03.34.28:705][ 97]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2019.06.12-03.34.28:705][ 97]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:50878, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-2CC952A74C91C5DAFBCC668606A41BCD
+[2019.06.12-03.34.28:705][ 97]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:50878, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-2CC952A74C91C5DAFBCC668606A41BCD, Channels: 11, Time: 2019.06.12-03.34.28
+[2019.06.12-03.34.28:705][ 97]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50878, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-2CC952A74C91C5DAFBCC668606A41BCD
+[2019.06.12-03.34.28:706][ 97]LogExit: GameNetDriver IpNetDriver_2 shut down
+[2019.06.12-03.34.28:706][ 97]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.34.28:706][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.34.28:726][ 97]LogSlate: Window 'MountainAndSea Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.12-03.34.28:768][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.34.28:840][ 97]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.12-03.34.28:841][ 97]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.34.28:887][ 97]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-82VF2NQ-2CC952A74C91C5DAFBCC668606A41BCD
+[2019.06.12-03.34.28:888][ 97]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-82VF2NQ-2CC952A74C91C5DAFBCC668606A41BCD, Channels: 2, Time: 2019.06.12-03.34.28
+[2019.06.12-03.34.28:888][ 97]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-82VF2NQ-2CC952A74C91C5DAFBCC668606A41BCD
+[2019.06.12-03.34.28:890][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.34.28:891][ 97]LogExit: GameNetDriver None shut down
+[2019.06.12-03.34.28:909][ 98]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.06.12-03.34.28:909][ 98]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.06.12-03.34.32:397][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-03.34.41:009][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-03.34.41:116][325]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-03.34.41:134][325]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.34.41:134][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-03.34.41:134][325]PIE: New page: PIE session: DefaultMap (Jun 12, 2019, 7:34:41 PM)
+[2019.06.12-03.34.41:135][325]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_DefaultMap
+[2019.06.12-03.34.41:137][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002311s)
+[2019.06.12-03.34.41:138][325]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-03.34.41:138][325]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2019.06.12-03.34.41:138][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DefaultMap.DefaultMap to /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap (0.003419s)
+[2019.06.12-03.34.41:179][325]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.12-03.34.41:188][325]LogInit: FAudioDevice initialized.
+[2019.06.12-03.34.41:226][325]LogLoad: Game class is 'MountainAndSeaGameMode'
+[2019.06.12-03.34.41:227][325]LogWorld: Bringing World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-11.34.41
+[2019.06.12-03.34.41:227][325]LogWorld: Bringing up level for play took: 0.000577
+[2019.06.12-03.34.41:242][325]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.34.41:243][325]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2019.06.12-03.34.41:243][325]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.34.41:243][325]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.06.12-03.34.41:243][325]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.06.12-03.34.41:243][325]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.06.12-03.34.41:244][325]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.34.41:244][325]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2019.06.12-03.34.41:244][325]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_DefaultMap -0.291
+[2019.06.12-03.34.41:248][325]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.34.41:254][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.34.41:296][325]LogNet: Browse: 127.0.0.1:17777//Game/Maps/DefaultMap
+[2019.06.12-03.34.41:297][325]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.34.41:297][325]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2019.06.12-03.34.41:297][325]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.06.12-03.34.41:297][325]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.06.12-03.34.41:298][325]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.34.41:298][325]LogNet: Game client on port 17777, rate 10000
+[2019.06.12-03.34.41:301][325]PIE: Play in editor start time for /Game/Maps/DefaultMap -0.234
+[2019.06.12-03.34.41:307][325]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.34.41:307][325]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49164
+[2019.06.12-03.34.41:307][325]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 107102186070070249231106111111204051077019105210040032238158
+[2019.06.12-03.34.41:309][325]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 107102186070070249231106111111204051077019105210040032238158
+[2019.06.12-03.34.41:374][326]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49164
+[2019.06.12-03.34.41:374][326]LogHandshake: SendChallengeAck. InCookie: 107102186070070249231106111111204051077019105210040032238158
+[2019.06.12-03.34.41:374][326]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49164
+[2019.06.12-03.34.41:375][326]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.06.12-03.34.41:375][326]LogNet: NotifyAcceptedConnection: Name: DefaultMap, TimeStamp: 06/12/19 11:34:41, [UNetConnection] RemoteAddr: 127.0.0.1:49164, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-03.34.41:376][326]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49164, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-03.34.41:377][326]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.06.12-03.34.41:384][327]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_DefaultMap.DefaultMap: Accepted
+[2019.06.12-03.34.41:384][327]LogNet: Remote platform little endian=1
+[2019.06.12-03.34.41:384][327]LogNet: This platform little endian=1
+[2019.06.12-03.34.41:405][328]LogNet: Login request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-A37456DE416646735D638E87F136ABEE userId: NULL:DESKTOP-82VF2NQ-A37456DE416646735D638E87F136ABEE platform: NULL
+[2019.06.12-03.34.41:406][328]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_DefaultMap, Game: /Script/MountainAndSea.MountainAndSeaGameMode)
+[2019.06.12-03.34.41:407][328]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_DefaultMap?game=/Script/MountainAndSea.MountainAndSeaGameMode
+[2019.06.12-03.34.41:450][328]LogAIModule: Creating AISystem for world DefaultMap
+[2019.06.12-03.34.41:450][328]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.06.12-03.34.41:451][328]LogWorld: Bringing World /Game/Maps/UEDPIE_2_DefaultMap.DefaultMap up for play (max tick rate 0) at 2019.06.12-11.34.41
+[2019.06.12-03.34.41:452][328]LogWorld: Bringing up level for play took: 0.000733
+[2019.06.12-03.34.41:452][328]LogLoad: Took 0.045501 seconds to LoadMap(/Game/Maps/UEDPIE_1_DefaultMap)
+[2019.06.12-03.34.41:462][329]LogNet: Client netspeed is 10000
+[2019.06.12-03.34.41:462][329]LogNet: Join request: /Game/Maps/DefaultMap?Name=DESKTOP-82VF2NQ-A37456DE416646735D638E87F136ABEE?SplitscreenCount=1
+[2019.06.12-03.34.41:463][329]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-03.34.41:465][329]LogNet: Join succeeded: DESKTOP-82VF2NQ-A374
+[2019.06.12-03.34.41:498][333]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-03.34.41:523][336]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.06.12-03.34.43:401][549]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-03.34.52:819][652]LogNet: World NetDriver shutdown IpNetDriver_4 [GameNetDriver]
+[2019.06.12-03.34.52:819][652]LogNet: DestroyNamedNetDriver IpNetDriver_4 [GameNetDriver]
+[2019.06.12-03.34.52:820][652]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:49164, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-A37456DE416646735D638E87F136ABEE
+[2019.06.12-03.34.52:820][652]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:49164, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-A37456DE416646735D638E87F136ABEE, Channels: 11, Time: 2019.06.12-03.34.52
+[2019.06.12-03.34.52:821][652]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49164, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-82VF2NQ-A37456DE416646735D638E87F136ABEE
+[2019.06.12-03.34.52:821][652]LogExit: GameNetDriver IpNetDriver_4 shut down
+[2019.06.12-03.34.52:821][652]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.34.52:822][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.34.52:856][652]LogSlate: Window 'MountainAndSea Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.12-03.34.52:900][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.34.52:940][652]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.12-03.34.52:941][652]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap' with GeneratedClass '/Game/Maps/DefaultMap.DefaultMap_C' with ClassGeneratedBy '/Game/Maps/DefaultMap.DefaultMap:PersistentLevel.DefaultMap'
+[2019.06.12-03.34.52:985][652]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-82VF2NQ-A37456DE416646735D638E87F136ABEE
+[2019.06.12-03.34.52:985][652]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-82VF2NQ-A37456DE416646735D638E87F136ABEE, Channels: 2, Time: 2019.06.12-03.34.52
+[2019.06.12-03.34.52:985][652]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-82VF2NQ-A37456DE416646735D638E87F136ABEE
+[2019.06.12-03.34.52:988][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.12-03.34.52:989][652]LogExit: GameNetDriver None shut down
+[2019.06.12-03.34.53:006][653]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.06.12-03.34.53:007][653]LogPlayLevel: Display: Destroying online subsystem :Context_5

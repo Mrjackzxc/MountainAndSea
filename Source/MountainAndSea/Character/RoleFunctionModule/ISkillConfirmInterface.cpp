@@ -4,15 +4,23 @@
 #include "SKillComponent.h"
 
 
-
 ISkillConfirmInterface::ISkillConfirmInterface(USKillComponent * AttachTo):ParentComponent(AttachTo)
 {
 	
 }
 
-
 ISkillConfirmInterface::~ISkillConfirmInterface()
 {
+}
+
+const FSkillDataBase * ISkillConfirmInterface::EnsureSkill(int32 nSkillID)
+{
+	return CTableWrapper<FSkillDataBase>::GetItem(nSkillID + GetSkillLevel());
+}
+
+void ISkillConfirmInterface::LunchSkill()
+{	
+	ParentComponent->RPC_Server_LunchSkill(GetSkillID());
 }
 
 CSkillGroupConfirm::CSkillGroupConfirm(USKillComponent * AttachTo):ISkillConfirmInterface(AttachTo)
@@ -27,19 +35,14 @@ CSkillGroupConfirm::~CSkillGroupConfirm()
 
 void CSkillGroupConfirm::LoadConfig()
 {
-// 	SkillKeyValue["q"] = Base_Element_Metal;
-// 	SkillKeyValue["e"] = Base_Element_Wood;
-// 	SkillKeyValue["r"] = Base_Element_Water;
-// 	SkillKeyValue["z"] = Base_Element_Fire;
-// 	SkillKeyValue["c"] = Base_Element_Earth;
-	SkillKeyValue.Add(TEXT("Q"), Base_Element_Metal);
-	SkillKeyValue.Add(TEXT("E"), Base_Element_Wood);
-	SkillKeyValue.Add(TEXT("R"), Base_Element_Water);
-	SkillKeyValue.Add(TEXT("Z"), Base_Element_Fire);
-	SkillKeyValue.Add(TEXT("C"), Base_Element_Earth);
+	SkillKeyValue.Add('Q', Base_Element_Metal);
+	SkillKeyValue.Add('E', Base_Element_Wood);
+	SkillKeyValue.Add('R', Base_Element_Water);
+	SkillKeyValue.Add('Z', Base_Element_Fire);
+	SkillKeyValue.Add('C', Base_Element_Earth);
 }
 
-void CSkillGroupConfirm::OnSkillKeyBoardEnter(const FString & key)
+void CSkillGroupConfirm::OnSkillKeyBoardEnter(const int8 & key)
 {
 	if (SkillKeyValue.Contains(key))
 	{
@@ -47,15 +50,9 @@ void CSkillGroupConfirm::OnSkillKeyBoardEnter(const FString & key)
 	}
 }
 
-const FSkillDataBase * CSkillGroupConfirm::EnsureSkill()
+const int32 CSkillGroupConfirm::GetSkillID() const 
 {
-	return CTableWrapper<FSkillDataBase>::GetItem(m_SelectSkillGroup.getKey()+GetSkillLevel());
-}
-
-void CSkillGroupConfirm::LunchSkill()
-{
-	const FSkillDataBase * skillData = EnsureSkill();
-	ParentComponent->StartSkill(skillData);
+	return m_SelectSkillGroup.getKey();
 }
 
 CSkillSingleConfirm::CSkillSingleConfirm(USKillComponent * AttachTo):ISkillConfirmInterface(AttachTo),m_nSelectSkillId(0)
@@ -65,20 +62,20 @@ CSkillSingleConfirm::CSkillSingleConfirm(USKillComponent * AttachTo):ISkillConfi
 
 CSkillSingleConfirm::~CSkillSingleConfirm()
 {
-
+	
 }
 
 void CSkillSingleConfirm::LoadConfig()
 {
 	//TODO:Load Skill Config
-	SkillKeyValue.Add(TEXT("Q"), 111);
-	SkillKeyValue.Add(TEXT("E"), 112);
-	SkillKeyValue.Add(TEXT("R"), 113);
-	SkillKeyValue.Add(TEXT("Z"), 114);
-	SkillKeyValue.Add(TEXT("C"), 115);
+	SkillKeyValue.Add('Q', 111);
+	SkillKeyValue.Add('E', 112);
+	SkillKeyValue.Add('R', 113);
+	SkillKeyValue.Add('Z', 114);
+	SkillKeyValue.Add('C', 115);
 }
 
-void CSkillSingleConfirm::OnSkillKeyBoardEnter(const FString & key)
+void CSkillSingleConfirm::OnSkillKeyBoardEnter(const int8 & key)
 {
 	if (SkillKeyValue.Contains(key))
 	{
@@ -88,16 +85,11 @@ void CSkillSingleConfirm::OnSkillKeyBoardEnter(const FString & key)
 	{
 		m_nSelectSkillId = 0;
 	}
-	const FSkillDataBase * _skilData = EnsureSkill();
-	ParentComponent->StartSkill(_skilData);
+	LunchSkill();
 }
 
-const FSkillDataBase * CSkillSingleConfirm::EnsureSkill()
+const int32 CSkillSingleConfirm::GetSkillID() const
 {
-	return CTableWrapper<FSkillDataBase>::GetItem(m_nSelectSkillId+GetSkillLevel());
+	return m_nSelectSkillId;
 }
 
-void CSkillSingleConfirm::LunchSkill()
-{
-	
-}
