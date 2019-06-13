@@ -36,7 +36,7 @@ public:
 		}
 	}
 
-	int32 GetElement(int32 idx)
+	int32 GetElement(int32 idx) const 
 	{
 		if (idx<0||idx>= SELECT_ELEMENT_MAX)
 		{
@@ -45,7 +45,7 @@ public:
 		return m_nSelectElement[idx];
 	}
 
-	int32 getKey()
+	int32 getKey() const 
 	{
 		int32 _result = 0;
 		for (size_t i=0;i< SELECT_ELEMENT_MAX;i++)
@@ -73,7 +73,7 @@ public:
 protected:
 	USKillComponent * ParentComponent;
 
-	TMap<FString, int32> SkillKeyValue;
+	TMap<int8,int32> SkillKeyValue;
 	
 	virtual void LoadConfig()=0;
 
@@ -84,11 +84,13 @@ protected:
 	}
 public:
 
-	virtual void OnSkillKeyBoardEnter(const FString & key)=0;
+	virtual void OnSkillKeyBoardEnter(const int8 & key)=0;
 
-	virtual const FSkillDataBase * EnsureSkill() = 0;
+	virtual const int32 GetSkillID() const = 0;
 
-	virtual void LunchSkill() = 0;
+	virtual const FSkillDataBase * EnsureSkill(int32 nSkillID);
+
+	virtual void LunchSkill();
 };
 
 class CSkillGroupConfirm:public ISkillConfirmInterface
@@ -101,11 +103,9 @@ protected:
 
 	void LoadConfig() override final;
 public:
-	void OnSkillKeyBoardEnter(const FString & key) override final;
+	void OnSkillKeyBoardEnter(const int8 & key) override final;
 
-	const FSkillDataBase *EnsureSkill()  override final;
-												 
-	 void LunchSkill() override final;
+	virtual const int32 GetSkillID()const override final;
 };
 
 class CSkillSingleConfirm :public ISkillConfirmInterface
@@ -117,10 +117,9 @@ protected:
 	int32 m_nSelectSkillId;
 
 	void LoadConfig() override;
+
 public:
-	void OnSkillKeyBoardEnter(const FString & key) override;
+	void OnSkillKeyBoardEnter(const int8 & key) override;
 
-	const FSkillDataBase *EnsureSkill()  override;
-
-	void LunchSkill() override;
+	virtual const int32 GetSkillID()const override final;
 };

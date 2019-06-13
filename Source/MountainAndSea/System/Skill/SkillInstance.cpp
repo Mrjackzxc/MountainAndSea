@@ -3,6 +3,9 @@
 #include "SkillInstance.h"
 #include "Particles/ParticleSystem.h"
 #include "Kismet/GameplayStatics.h"
+#include "Engine/World.h"
+#include "TimerManager.h"
+#include "Function.h"
 
 // Sets default values
 
@@ -17,6 +20,16 @@ void ASkillInstance::BeginPlay()
 {
 	Super::BeginPlay();
 	
+}
+
+void ASkillInstance::SetLiveTime(float nLiveTime)
+{
+	if (nLiveTime!=0)
+	{
+		FTimerHandle _TimerHandle;
+		auto _Lambda = FTimerDelegate::CreateLambda([&]() {DestroySkill(); });
+		GWorld->GetTimerManager().SetTimer(_TimerHandle, _Lambda,1.f,false, nLiveTime);
+	}
 }
 
 // Called every frame
@@ -37,5 +50,6 @@ void ASkillInstance::InitSkill(const FBaseElements & RoleBaseElement, const FSki
 	m_fRoleBaseElement = RoleBaseElement;
 	SetActorTransform(startTransform);
 	SetSkillEffict(m_fSkillData.SkillEffect);
+	SetLiveTime(SkillData.ContinueTime);
 }
 

@@ -28,6 +28,11 @@ protected:
 
 	UParticleSystemComponent * m_pSkillComponent;
 
+protected:
+	void SetLiveTime(float nLiveTime) ;
+
+	void DestroySkill() { Destroy(); }
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -36,7 +41,12 @@ public:
 
 	void InitSkill(const FBaseElements & RoleBaseElement, const FSkillInstanceData & SkillData,FTransform startTransform);
 
-protected:
-	
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = Skill)
+		void PlaySkill();
+ 
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = Skill)
+		const FBaseElements GetRoleAttrBase()const			{ return m_fRoleBaseElement; }
 
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = Skill)
+		const FSkillInstanceData GetSkillData()const		{ return m_fSkillData; }
 };

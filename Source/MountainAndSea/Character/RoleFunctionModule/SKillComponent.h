@@ -9,6 +9,7 @@
 
 class ISkillConfirmInterface;
 class AMainCharacter;
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class MOUNTAINANDSEA_API USKillComponent : public UActorComponent
 {
@@ -31,7 +32,6 @@ protected:
 	AMainCharacter * m_pMainCharacter;
 
 	TSharedPtr<FSkillDataBase> m_pCurrentSkillData;
-
 
 protected:
 	bool m_bIsGroup;
@@ -63,10 +63,13 @@ public:
 	void InterruptSkill();
 
 public://Response skill keyboard 
-	UFUNCTION(BlueprintCallable)
-	void ResponseSkillkeyboard(FString key);
+	void ResponseSkillkeyboard(const int8 &key);
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, Server, Unreliable, WithValidation)
+		void RPC_Server_LunchSkill(int32 nSkillID);
+	bool RPC_Server_LunchSkill_Validate(int32 nSkillID);
+	void RPC_Server_LunchSkill_Implementation(int32 nSkillID);
+
 	void LunchSkill();
 
 	bool GetSkillIsAllowMove() const ;

@@ -14,7 +14,6 @@ BaseTurnRate(1),BaseLookUpRate(1), m_fStatMachine(this), m_bCanMove(true), m_bCa
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	CharacterSkillComponent = CreateDefaultSubobject<USKillComponent>(TEXT("SkillComponent"));
-	
 }
 
 // Called when the game starts or w hen spawned
@@ -51,8 +50,27 @@ void AMainCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInpu
 //	PlayerInputComponent->BindAxis("TurnRate", this, &AMainCharacter::TurnAtRate);
  //	PlayerInputComponent->BindAxis("LookUpRate", this, &AMountainAndSeaCharacter::LookUpAtRate);
 
+	PlayerInputComponent->BindAction("Skill1", IE_Pressed,this, &AMainCharacter::OnKeyboard_Q);
+	PlayerInputComponent->BindAction("Skill2", IE_Pressed, this, &AMainCharacter::OnKeyboard_E);
+	PlayerInputComponent->BindAction("Skill3", IE_Pressed, this, &AMainCharacter::OnKeyboard_R);
+	PlayerInputComponent->BindAction("Skill4", IE_Pressed, this, &AMainCharacter::OnKeyboard_Z);
+	PlayerInputComponent->BindAction("Skill5", IE_Pressed, this, &AMainCharacter::OnKeyboard_C);
+	PlayerInputComponent->BindAction("PlaySkill", IE_Pressed, this, &AMainCharacter::OnKeyboard_F);
+	PlayerInputComponent->BindAction("MildAttack", IE_Pressed, this, &AMainCharacter::MildAttack);
+	PlayerInputComponent->BindAction("SevereAttack", IE_Pressed, this, &AMainCharacter::SevereAttack);
+
 }
 
+
+bool AMainCharacter::RPC_Server_Skill_Validate(int8 key)
+{
+	return true;
+}
+
+void AMainCharacter::RPC_Server_Skill_Implementation(int8 key)
+{
+	GetRoleSkillComponent()->ResponseSkillkeyboard(key);
+}
 
 void AMainCharacter::MoveForward(float Value)
 {
@@ -104,14 +122,14 @@ void AMainCharacter::DoJump()
 {
 	if (m_bCanJump)
 	{
-		m_fStatMachine.ChangeStat(JumpStat);
+		m_fStatMachine.ChangeStatWithValid(JumpStat);
 	}
 }
 
 void AMainCharacter::Landed(const FHitResult& Hit)
 {
 	Super::Landed(Hit);
-	m_fStatMachine.ChangeStat(IdleStat);
+	m_fStatMachine.ChangeStatWithValid(IdleStat);
 }
 
 void AMainCharacter::ConsumeHp(int32 value)
@@ -126,8 +144,14 @@ void AMainCharacter::ConsumeMp(int32 value)
 
 void AMainCharacter::OnSkillEnd()
 {
-	m_fStatMachine.ChangeStat(IdleStat);
+	RPC_Muitcast_ChangeRoleState(IdleStat);
 }
+
+void AMainCharacter::RPC_Muitcast_PlaySkillMontage_Implementation(UAnimMontage *SkillMontage)
+{
+	StopAnimMontage();
+	PlayAnimMontage(SkillMontage);
+}	
 
 ECharBaseStat AMainCharacter::GetRoleStat() const
 {
@@ -143,9 +167,19 @@ void AMainCharacter::OnRoleStatChange(ECharBaseStat eStat)
 	}
 }
 
-bool AMainCharacter::ChangeRoleStat(ECharBaseStat eStat)
+bool AMainCharacter::ValidStatChange(ECharBaseStat eStat)
+{
+	return m_fStatMachine.ValidStatChange(eStat);
+}
+
+void AMainCharacter::ChangeRoleStat(ECharBaseStat eStat)
 {
 	return m_fStatMachine.ChangeStat(eStat);
+}
+
+bool AMainCharacter::ChangeRoleStatWithValid(ECharBaseStat eStat)
+{
+	return m_fStatMachine.ChangeStatWithValid(eStat);
 }
 
 void AMainCharacter::SetRoleCanMove(bool canMove)
