@@ -41,6 +41,10 @@ public:
 
 	void InitSkill(const FBaseElements & RoleBaseElement, const FSkillInstanceData & SkillData,FTransform startTransform);
 
+	UFUNCTION(NetMulticast, Reliable)
+		void RPC_Multicast_InitSkill(const FBaseElements & RoleBaseElement, const FSkillInstanceData & SkillData, FTransform startTransform);
+	void RPC_Multicast_InitSkill_Implementation(const FBaseElements & RoleBaseElement, const FSkillInstanceData & SkillData, FTransform startTransform);
+
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = Skill)
 		void PlaySkill();
  

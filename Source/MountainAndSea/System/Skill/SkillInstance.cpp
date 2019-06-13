@@ -53,3 +53,9 @@ void ASkillInstance::InitSkill(const FBaseElements & RoleBaseElement, const FSki
 	SetLiveTime(SkillData.ContinueTime);
 }
 
+void ASkillInstance::RPC_Multicast_InitSkill_Implementation(const FBaseElements & RoleBaseElement, const FSkillInstanceData & SkillData, FTransform startTransform)
+{
+	InitSkill(RoleBaseElement, SkillData, startTransform);
+	PlaySkill();
+}
+

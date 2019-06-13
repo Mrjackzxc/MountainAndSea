@@ -215,7 +215,6 @@ void USKillComponent::SpawnSkill()
 	ASkillInstance* _skIllIns= Cast<ASkillInstance>(_tempActor);
 	if (_skIllIns!=nullptr)
 	{
-		_skIllIns->InitSkill(m_pMainCharacter->GetRoleAttrBase(), *_skillData, m_pMainCharacter->GetActorTransform());
-		_skIllIns->PlaySkill();
+		_skIllIns->RPC_Multicast_InitSkill(m_pMainCharacter->GetRoleAttrBase(), *_skillData, m_pMainCharacter->GetActorTransform());
 	}
 }
