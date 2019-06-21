@@ -1,5 +1,7 @@
 #pragma once
 #include "System/Skill/SkillDataDef.h"
+#include "System/MountainAndSeaBaseDataDef.h"
+#include "BufferArchive.h"
 
 #define SELECT_ELEMENT_MAX 3
 
@@ -62,6 +64,89 @@ public:
 			m_nSelectElement[i] = 0;
 		}
 	}
+};
+
+struct FSkillLearnMap
+{
+	int32 nSkillId;
+	int32 nSkillLevel;
+	bool bIsLearnSkill;
+};
+
+struct FSkillConfigReader
+{
+	FKVData<int8, int32> ReadData[5];
+
+	void ReadDataFromBinary(FBufferArchive& eReadData)
+	{
+		eReadData<<ReadData[0].m_Key;
+		eReadData<<ReadData[0].m_Value;
+		eReadData<<ReadData[1].m_Key;
+		eReadData<<ReadData[1].m_Value;
+		eReadData<<ReadData[2].m_Key;
+		eReadData<<ReadData[2].m_Value;
+		eReadData<<ReadData[3].m_Key;
+		eReadData<<ReadData[3].m_Value;
+		eReadData<<ReadData[4].m_Key;
+		eReadData<<ReadData[4].m_Value; 
+	}
+
+	void ReadDataFromBinary()
+	{
+		ReadData[0].m_Key='Q';
+		ReadData[0].m_Value=0;
+		ReadData[1].m_Key = 'E';
+		ReadData[1].m_Value = 0;
+		ReadData[2].m_Key = 'R';
+		ReadData[2].m_Value = 0;
+		ReadData[3].m_Key = 'Z';
+		ReadData[3].m_Value = 0;
+		ReadData[4].m_Key = 'X';
+		ReadData[4].m_Value = 0;
+	}
+
+	void RevetToMap(TMap<int8, int32> & outParam)
+	{
+		for (size_t i=0;i<5;i++)
+		{
+			outParam[ReadData[i].m_Key] = ReadData[i].m_Value;
+		}
+	}
+
+};
+
+struct FSkillConfigWriter
+{
+	FKVData<int8, int32> ReadData[5];
+
+	void WriteDataFromBinary(FBufferArchive& eReadData)
+	{
+		eReadData << ReadData[0].m_Key;
+		eReadData << ReadData[0].m_Value;
+		eReadData << ReadData[1].m_Key;
+		eReadData << ReadData[1].m_Value;
+		eReadData << ReadData[2].m_Key;
+		eReadData << ReadData[2].m_Value;
+		eReadData << ReadData[3].m_Key;
+		eReadData << ReadData[3].m_Value;
+		eReadData << ReadData[4].m_Key;
+		eReadData << ReadData[4].m_Value;
+	}
+
+	void ReadDataFromBinary()
+	{
+		ReadData[0].m_Key = 'Q';
+		ReadData[0].m_Value = 0;
+		ReadData[1].m_Key = 'E';
+		ReadData[1].m_Value = 0;
+		ReadData[2].m_Key = 'R';
+		ReadData[2].m_Value = 0;
+		ReadData[3].m_Key = 'Z';
+		ReadData[3].m_Value = 0;
+		ReadData[4].m_Key = 'X';
+		ReadData[4].m_Value = 0;
+	}
+
 };
 
 class ISkillConfirmInterface

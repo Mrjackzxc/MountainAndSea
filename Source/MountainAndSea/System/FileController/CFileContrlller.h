@@ -11,8 +11,13 @@ public:
 	~CFileContrlller();
 
 public:
-	static void SaveFileToJson();
 
-	static T LoadFileFromJson();
+	static bool SaveFileToJson(const T & saveData);
+	//if ture LoadFile be Success
+	static bool LoadFileFromJson(T& eDataReader);
+
+	static bool SaveFileToBinary(const T & saveData);
+
+	static bool LoadFileFromBinary(T& eDataReader);
 };
 

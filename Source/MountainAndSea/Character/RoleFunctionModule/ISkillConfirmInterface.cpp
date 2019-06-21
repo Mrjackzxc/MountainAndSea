@@ -39,7 +39,7 @@ void CSkillGroupConfirm::LoadConfig()
 	SkillKeyValue.Add('E', Base_Element_Wood);
 	SkillKeyValue.Add('R', Base_Element_Water);
 	SkillKeyValue.Add('Z', Base_Element_Fire);
-	SkillKeyValue.Add('C', Base_Element_Earth);
+	SkillKeyValue.Add('X', Base_Element_Earth);
 }
 
 void CSkillGroupConfirm::OnSkillKeyBoardEnter(const int8 & key)
@@ -72,7 +72,7 @@ void CSkillSingleConfirm::LoadConfig()
 	SkillKeyValue.Add('E', 112);
 	SkillKeyValue.Add('R', 113);
 	SkillKeyValue.Add('Z', 114);
-	SkillKeyValue.Add('C', 115);
+	SkillKeyValue.Add('X', 115);
 }
 
 void CSkillSingleConfirm::OnSkillKeyBoardEnter(const int8 & key)

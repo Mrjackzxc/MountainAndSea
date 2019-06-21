@@ -31,3 +31,10 @@ public:
 		return TEXT("StringLang.StringLang");
 	}
 };
+
+template<class K,class V>
+struct FKVData
+{
+	K m_Key;
+	V m_Value;
+};
