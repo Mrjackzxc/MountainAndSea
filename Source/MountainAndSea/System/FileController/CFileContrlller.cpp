@@ -77,7 +77,7 @@ bool CFileContrlller<T>::LoadFileFromBinary(T& eDataReader)
 	if (!FFileHelper::LoadFileToArray(_aCompressedData, *_sFilePath))
 	{
 		UE_LOG(LogTemp, Warning, TEXT("--- FFILEHELPER:>> Invalid File"))
-			return;
+		return eDataReader.ReadDataFromBinary();
 	}
 	FArchiveLoadCompressedProxy _eCompressor(_aCompressedData, ECompressionFlags::COMPRESS_ZLIB);
 	FBufferArchive _eFromBinary;

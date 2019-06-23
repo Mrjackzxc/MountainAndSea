@@ -77,7 +77,7 @@ struct FSkillConfigReader
 {
 	FKVData<int8, int32> ReadData[5];
 
-	void ReadDataFromBinary(FBufferArchive& eReadData)
+	bool ReadDataFromBinary(FBufferArchive& eReadData)
 	{
 		eReadData<<ReadData[0].m_Key;
 		eReadData<<ReadData[0].m_Value;
@@ -89,9 +89,10 @@ struct FSkillConfigReader
 		eReadData<<ReadData[3].m_Value;
 		eReadData<<ReadData[4].m_Key;
 		eReadData<<ReadData[4].m_Value; 
+		return true;
 	}
 
-	void ReadDataFromBinary()
+	bool ReadDataFromBinary()
 	{
 		ReadData[0].m_Key='Q';
 		ReadData[0].m_Value=0;
@@ -103,6 +104,7 @@ struct FSkillConfigReader
 		ReadData[3].m_Value = 0;
 		ReadData[4].m_Key = 'X';
 		ReadData[4].m_Value = 0;
+		return false;
 	}
 
 	void RevetToMap(TMap<int8, int32> & outParam)
