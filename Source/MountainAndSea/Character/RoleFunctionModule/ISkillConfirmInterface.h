@@ -92,6 +92,21 @@ struct FSkillConfigReader
 		return true;
 	}
 
+	bool WriteDataToBinary(FBufferArchive& eReadData)
+	{
+		eReadData << ReadData[0].m_Key;
+		eReadData << ReadData[0].m_Value;
+		eReadData << ReadData[1].m_Key;
+		eReadData << ReadData[1].m_Value;
+		eReadData << ReadData[2].m_Key;
+		eReadData << ReadData[2].m_Value;
+		eReadData << ReadData[3].m_Key;
+		eReadData << ReadData[3].m_Value;
+		eReadData << ReadData[4].m_Key;
+		eReadData << ReadData[4].m_Value;
+		return true;
+	}
+
 	bool ReadDataFromBinary()
 	{
 		ReadData[0].m_Key='Q';
